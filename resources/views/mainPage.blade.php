@@ -20,9 +20,14 @@
         }
     </style>
 </head>
+<header>
+    <h2>NOT NAMED YET WEBSHOP</h2>
+</header>
 <body>
 <div class="main__container">
+    <div class="main__ExampleProducts">
 
+    </div>
 </div>
 <footer class="footer">
     <p class="footer__author">made by: Marijn Zolnai</p>
