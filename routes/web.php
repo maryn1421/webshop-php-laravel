@@ -22,5 +22,17 @@ Route::get('/wau', function () {
     return view('welcome');
 });
 
+Route::get('/admin', function () {
+    return view('welcome');
+});
+
+Route::get('/products', function () {
+    return view('welcome');
+});
+
+Route::get('/admin', function () {
+    return view('welcome');
+});
+
 
 
