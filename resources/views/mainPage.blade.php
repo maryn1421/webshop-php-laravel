@@ -24,7 +24,10 @@
 <div class="main__container">
 
 </div>
-
+<footer class="footer">
+    <p class="footer__author">made by: Marijn Zolnai</p>
+    <a href="https://github.com/maryn1421/webshop-php-laravel" class="footer__repoLink" target="_blank">Link to the project</a>
+</footer>
 </body>
 </html>
 
