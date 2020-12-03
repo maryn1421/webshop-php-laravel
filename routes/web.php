@@ -34,5 +34,66 @@ Route::get('/admin', function () {
     return view('welcome');
 });
 
+Route::get('/admin/all-product', function () {
+    return view('welcome');
+});
+
+
+/*
+|--------------------------------------------------------------------------
+| Product editing Routes
+|--------------------------------------------------------------------------
+|
+*/
+
+
+Route::get('/admin/product/{id}', function ($id) {
+    return view('welcome');
+});
+
+Route::delete('/admin/product/{id}', function ($id) {
+    return view('welcome');
+});
+
+Route::put('/admin/product/{id}', function ($id) {
+    return view('welcome');
+});
+
+
+
+/*
+|--------------------------------------------------------------------------
+| Category editing Routes
+|--------------------------------------------------------------------------
+|
+*/
+
+
+Route::get('/admin/category/{id}', function ($id) {
+    return view('welcome');
+});
+
+Route::delete('/admin/category/{id}', function ($id) {
+    return view('welcome');
+});
+
+Route::put('/admin/category/{id}', function ($id) {
+    return view('welcome');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
