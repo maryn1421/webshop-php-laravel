@@ -7,9 +7,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -121,6 +129,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kuo1ZpBBDhDr7kiO68ZH5oK2N3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -146,10 +155,21 @@
       <option name="presentableId" value="Default" />
       <updated>1606559627036</updated>
       <workItem from="1606559628859" duration="1941000" />
+      <workItem from="1606983859688" duration="490000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="838" y="418" key="Github.ShareDialog" timestamp="1606984063778">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="838" y="418" key="Github.ShareDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1606984063778" />
+    <state x="732" y="225" key="Github.UntrackedFilesDialog" timestamp="1606984078225">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="732" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1606984078225" />
   </component>
 </project>
