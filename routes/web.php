@@ -19,6 +19,11 @@ Route::get('/', function () {
 
 
 Route::get('/wau', function () {
+    products::create(array(
+        'first_name' => 'John',
+        'last_name'  => 'Doe',
+        'student_rank' => 1
+    ));
     return view('welcome');
 });
 
@@ -31,7 +36,7 @@ Route::get('/products', function () {
 });
 
 Route::get('/admin', function () {
-    return view('welcome');
+    return view('admin');
 });
 
 Route::get('/admin/all-product', function () {
@@ -48,7 +53,8 @@ Route::get('/admin/all-product', function () {
 
 
 Route::get('/admin/product/{id}', function ($id) {
-    return view('welcome');
+    return view('product', ['id' => $id]);
+
 });
 
 Route::delete('/admin/product/{id}', function ($id) {
@@ -56,9 +62,13 @@ Route::delete('/admin/product/{id}', function ($id) {
 });
 
 Route::put('/admin/product/{id}', function ($id) {
-    return view('welcome');
-});
 
+
+    return view('product', array('ids' => $id));
+
+
+    // return view('welcome');
+});
 
 
 /*

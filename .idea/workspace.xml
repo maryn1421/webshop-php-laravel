@@ -19,9 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="add new branch: Basics!">
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added routes for category and product editing / deleting">
+      <change afterPath="$PROJECT_DIR$/app/Models/category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_05_114400_create_categories_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_05_114418_create_products_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/product.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,16 +157,18 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kuo1ZpBBDhDr7kiO68ZH5oK2N3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -180,6 +189,7 @@
       <updated>1606559627036</updated>
       <workItem from="1606559628859" duration="1941000" />
       <workItem from="1606983859688" duration="2671000" />
+      <workItem from="1607166467500" duration="5976000" />
     </task>
     <task id="LOCAL-00001" summary="add new branch: Development!">
       <created>1606984386050</created>
@@ -195,7 +205,28 @@
       <option name="project" value="LOCAL" />
       <updated>1606985529320</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added database connection">
+      <created>1607003288776</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607003288776</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added new models: Category and Product">
+      <created>1607003545078</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607003545078</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added routes for category and product editing / deleting">
+      <created>1607008199776</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607008199776</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,15 +245,23 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add new branch: Development!" />
     <MESSAGE value="add new branch: Basics!" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new branch: Basics!" />
+    <MESSAGE value="added database connection" />
+    <MESSAGE value="added new models: Category and Product" />
+    <MESSAGE value="added routes for category and product editing / deleting" />
+    <option name="LAST_COMMIT_MESSAGE" value="added routes for category and product editing / deleting" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607003216575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607003216575" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1607004708338">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607004708338" />
     <state x="838" y="418" key="Github.ShareDialog" timestamp="1606984063778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -231,13 +270,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="732" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1606984078225" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1607004272064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607004272064" />
     <state x="794" y="443" key="NewPhpFileDialog" timestamp="1606988274232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1606988274232" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1606985530707">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1607008201224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1606985530707" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607008201224" />
+    <state x="814" y="344" width="316" height="351" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1607174723125">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="814" y="344" width="316" height="351" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607174723125" />
   </component>
 </project>
