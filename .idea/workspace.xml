@@ -19,9 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added database migrations for models">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added admin controller">
+      <change afterPath="$PROJECT_DIR$/resources/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/css/util.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/newProduct.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,6 +172,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maryn\Desktop\projects\webshop2\resources\vendor" />
+      <recent name="C:\Users\maryn\Desktop\projects\webshop2\resources\css" />
+      <recent name="C:\Users\maryn\Desktop\projects\webshop2\resources\fonts" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -184,7 +196,7 @@
       <workItem from="1606559628859" duration="1941000" />
       <workItem from="1606983859688" duration="2671000" />
       <workItem from="1607166467500" duration="6986000" />
-      <workItem from="1607331423049" duration="1095000" />
+      <workItem from="1607331423049" duration="6581000" />
     </task>
     <task id="LOCAL-00001" summary="add new branch: Development!">
       <created>1606984386050</created>
@@ -228,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607174758061</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added admin controller">
+      <created>1607332792514</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607332792514</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,13 +273,18 @@
     <MESSAGE value="added new models: Category and Product" />
     <MESSAGE value="added routes for category and product editing / deleting" />
     <MESSAGE value="added database migrations for models" />
-    <option name="LAST_COMMIT_MESSAGE" value="added database migrations for models" />
+    <MESSAGE value="added admin controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="added admin controller" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607003216575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607003216575" />
+    <state x="710" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607335167647">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="710" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607335167647" />
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1607004708338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -281,14 +305,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="688" y="243" key="NewPhpClassDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607331853919" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1606988274232">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1607335213509">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1606988274232" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1607174760236">
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607335213509" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1607332812882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607174760236" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607332812882" />
     <state x="814" y="344" width="316" height="351" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1607174723125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -4,6 +4,9 @@
 namespace App\Http\Controllers;
 
 
+use Illuminate\Http\Request;
+
+
 class AdminController extends Controller
 {
 
@@ -15,6 +18,11 @@ class AdminController extends Controller
     public function singleProduct($id) {
 
         return view('product', ['id' => $id]);
+    }
+    public function newProduct(Request $request) {
+        $name = $request->name;
+        echo $name;
+        return $request;
     }
 
 }

@@ -42,6 +42,10 @@ Route::get('/admin/all-product', function () {
     return view('welcome');
 });
 
+Route::get('/admin/new-product', function () {
+    return view('newProduct');
+});
+
 
 /*
 |--------------------------------------------------------------------------
@@ -52,6 +56,8 @@ Route::get('/admin/all-product', function () {
 
 
 Route::get('/admin/product/{id}',[AdminController::class, 'singleProduct']);
+
+Route::post('/admin/new-product',[AdminController::class, 'newProduct']);
 
 Route::delete('/admin/product/{id}', function ($id) {
     return view('welcome');
