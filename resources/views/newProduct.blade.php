@@ -54,6 +54,12 @@
                 <span class="focus-input100"></span>
             </div>
 
+            <label for="name">Select or <a href="/admin/new-category">create</a> a category</label><select class="form-control" id="name" name="name[]" data-live-search="true" style="width:100%">
+                @foreach ($categories as $category)
+                    <option class="input100" value="{{ $category->id }}">{{ $category->name }}</option>
+                @endforeach
+            </select>
+
             <div class="container-contact100-form-btn">
                 <button class="contact100-form-btn">
 						<span>
@@ -65,6 +71,8 @@
         </form>
     </div>
 </div>
+
+{{$categories}}
 
 </body>
 </html>

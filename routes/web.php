@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Models\category;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -43,7 +44,9 @@ Route::get('/admin/all-product', function () {
 });
 
 Route::get('/admin/new-product', function () {
-    return view('newProduct');
+    return view('newProduct', [
+        'categories' => category::orderBy('created_at', 'asc')->get()
+    ]);
 });
 Route::get('/admin/new-category', function () {
     return view('newCategory');

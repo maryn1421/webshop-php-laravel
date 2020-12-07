@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added new pages: new category and new product!">
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="finished new category">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/newCategory.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/newCategory.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/newProduct.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/newProduct.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +193,7 @@
       <workItem from="1606559628859" duration="1941000" />
       <workItem from="1606983859688" duration="2671000" />
       <workItem from="1607166467500" duration="6986000" />
-      <workItem from="1607331423049" duration="11385000" />
+      <workItem from="1607331423049" duration="14645000" />
     </task>
     <task id="LOCAL-00001" summary="add new branch: Development!">
       <created>1606984386050</created>
@@ -260,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607352979034</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="finished new category">
+      <created>1607354649390</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607354649390</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +294,8 @@
     <MESSAGE value="added admin controller" />
     <MESSAGE value="added resources for designing" />
     <MESSAGE value="added new pages: new category and new product!" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new pages: new category and new product!" />
+    <MESSAGE value="finished new category" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished new category" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607003216575">
@@ -324,10 +330,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607352334774" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1607352981348">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1607354653448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607352981348" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607354653448" />
     <state x="814" y="344" width="316" height="351" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1607174723125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
