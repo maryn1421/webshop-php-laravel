@@ -38,7 +38,7 @@
 
 <div class="container-contact100">
     <div class="wrap-contact100">
-        <form action="{{ url('admin/new-product')}}" method="POST" class="contact100-form validate-form">
+        <form action="{{ url('admin/new-category')}}" method="POST" class="contact100-form validate-form">
             {{ csrf_field() }}
             <span class="contact100-form-title">
                     Add a new category

@@ -19,128 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added resources for designing">
-      <change afterPath="$PROJECT_DIR$/resources/views/newCategory.blade.php" afterDir="false" />
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added new pages: new category and new product!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/util.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/util.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/JosefinSans/JosefinSans-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/JosefinSans/JosefinSans-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/JosefinSans/JosefinSans-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/JosefinSans/JosefinSans-BoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/JosefinSans/JosefinSans-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/JosefinSans/JosefinSans-Italic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/JosefinSans/JosefinSans-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/JosefinSans/JosefinSans-Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/JosefinSans/JosefinSans-LightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/JosefinSans/JosefinSans-LightItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/JosefinSans/JosefinSans-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/JosefinSans/JosefinSans-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/JosefinSans/JosefinSans-SemiBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/JosefinSans/JosefinSans-SemiBold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/JosefinSans/JosefinSans-SemiBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/JosefinSans/JosefinSans-SemiBoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/JosefinSans/JosefinSans-Thin.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/JosefinSans/JosefinSans-Thin.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/JosefinSans/JosefinSans-ThinItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/JosefinSans/JosefinSans-ThinItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/JosefinSans/OFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/JosefinSans/OFL.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/less/animated.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/animated.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/less/core.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/core.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/icons.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/less/larger.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/larger.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/less/list.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/list.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/less/path.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/path.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/less/stacked.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/iconic/css/material-design-iconic-font.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/iconic/css/material-design-iconic-font.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/iconic/css/material-design-iconic-font.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/iconic/css/material-design-iconic-font.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/source-sans-pro/OFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro/OFL.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/source-sans-pro/SourceSansPro-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro/SourceSansPro-Black.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/source-sans-pro/SourceSansPro-BlackItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro/SourceSansPro-BlackItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/source-sans-pro/SourceSansPro-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro/SourceSansPro-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/source-sans-pro/SourceSansPro-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro/SourceSansPro-BoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/source-sans-pro/SourceSansPro-ExtraLight.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro/SourceSansPro-ExtraLight.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/source-sans-pro/SourceSansPro-ExtraLightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro/SourceSansPro-ExtraLightItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/source-sans-pro/SourceSansPro-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro/SourceSansPro-Italic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/source-sans-pro/SourceSansPro-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro/SourceSansPro-Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/source-sans-pro/SourceSansPro-LightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro/SourceSansPro-LightItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/source-sans-pro/SourceSansPro-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro/SourceSansPro-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/source-sans-pro/SourceSansPro-SemiBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro/SourceSansPro-SemiBold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/source-sans-pro/SourceSansPro-SemiBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro/SourceSansPro-SemiBoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/ubuntu/UFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ubuntu/UFL.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/ubuntu/Ubuntu-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ubuntu/Ubuntu-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/ubuntu/Ubuntu-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ubuntu/Ubuntu-BoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/ubuntu/Ubuntu-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ubuntu/Ubuntu-Italic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/ubuntu/Ubuntu-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ubuntu/Ubuntu-Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/ubuntu/Ubuntu-LightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ubuntu/Ubuntu-LightItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/ubuntu/Ubuntu-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ubuntu/Ubuntu-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/ubuntu/Ubuntu-MediumItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ubuntu/Ubuntu-MediumItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fonts/ubuntu/Ubuntu-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ubuntu/Ubuntu-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/icons/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/icons/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/icons/map-marker.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/icons/map-marker.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/animate/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/animate/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/animsition/css/animsition.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/animsition/css/animsition.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/animsition/css/animsition.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/animsition/css/animsition.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/animsition/js/animsition.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/animsition/js/animsition.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/animsition/js/animsition.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/animsition/js/animsition.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/bootstrap/js/popper.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/popper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/bootstrap/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/popper.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/bootstrap/js/tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/tooltip.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/countdowntime/countdowntime.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/countdowntime/countdowntime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/css-hamburgers/hamburgers.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/css-hamburgers/hamburgers.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/css-hamburgers/hamburgers.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/css-hamburgers/hamburgers.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/daterangepicker/daterangepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/daterangepicker/daterangepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/daterangepicker/daterangepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/daterangepicker/daterangepicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/daterangepicker/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/daterangepicker/moment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/daterangepicker/moment.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/daterangepicker/moment.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/jquery/jquery-3.2.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/jquery/jquery-3.2.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/perfect-scrollbar/perfect-scrollbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/perfect-scrollbar/perfect-scrollbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/perfect-scrollbar/perfect-scrollbar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/perfect-scrollbar/perfect-scrollbar.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/select2/select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/select2/select2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/select2/select2.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/select2/select2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/select2/select2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/select2/select2.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vendor/select2/select2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/select2/select2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/newProduct.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/newProduct.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/newCategory.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/newCategory.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -312,7 +195,7 @@
       <workItem from="1606559628859" duration="1941000" />
       <workItem from="1606983859688" duration="2671000" />
       <workItem from="1607166467500" duration="6986000" />
-      <workItem from="1607331423049" duration="9905000" />
+      <workItem from="1607331423049" duration="11385000" />
     </task>
     <task id="LOCAL-00001" summary="add new branch: Development!">
       <created>1606984386050</created>
@@ -370,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607339136280</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added new pages: new category and new product!">
+      <created>1607352979033</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607352979034</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,7 +288,8 @@
     <MESSAGE value="added database migrations for models" />
     <MESSAGE value="added admin controller" />
     <MESSAGE value="added resources for designing" />
-    <option name="LAST_COMMIT_MESSAGE" value="added resources for designing" />
+    <MESSAGE value="added new pages: new category and new product!" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new pages: new category and new product!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607003216575">
@@ -433,10 +324,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607352334774" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1607339137919">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1607352981348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607339137919" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607352981348" />
     <state x="814" y="344" width="316" height="351" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1607174723125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

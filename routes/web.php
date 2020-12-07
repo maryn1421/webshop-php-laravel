@@ -61,6 +61,7 @@ Route::get('/admin/new-category', function () {
 Route::get('/admin/product/{id}',[AdminController::class, 'singleProduct']);
 
 Route::post('/admin/new-product',[AdminController::class, 'newProduct']);
+Route::post('/admin/new-category',[AdminController::class, 'newCategory']);
 
 Route::delete('/admin/product/{id}', function ($id) {
     return view('welcome');
