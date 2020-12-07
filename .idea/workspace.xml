@@ -19,15 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added routes for category and product editing / deleting">
-      <change afterPath="$PROJECT_DIR$/app/Models/category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_05_114400_create_categories_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_05_114418_create_products_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.blade.php" afterDir="false" />
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added database migrations for models">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Product.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,7 +183,8 @@
       <updated>1606559627036</updated>
       <workItem from="1606559628859" duration="1941000" />
       <workItem from="1606983859688" duration="2671000" />
-      <workItem from="1607166467500" duration="5976000" />
+      <workItem from="1607166467500" duration="6986000" />
+      <workItem from="1607331423049" duration="1095000" />
     </task>
     <task id="LOCAL-00001" summary="add new branch: Development!">
       <created>1606984386050</created>
@@ -226,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607008199776</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added database migrations for models">
+      <created>1607174758061</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607174758061</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +253,8 @@
     <MESSAGE value="added database connection" />
     <MESSAGE value="added new models: Category and Product" />
     <MESSAGE value="added routes for category and product editing / deleting" />
-    <option name="LAST_COMMIT_MESSAGE" value="added routes for category and product editing / deleting" />
+    <MESSAGE value="added database migrations for models" />
+    <option name="LAST_COMMIT_MESSAGE" value="added database migrations for models" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607003216575">
@@ -274,14 +277,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607004272064" />
+    <state x="688" y="243" key="NewPhpClassDialog" timestamp="1607331853919">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="688" y="243" key="NewPhpClassDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607331853919" />
     <state x="794" y="443" key="NewPhpFileDialog" timestamp="1606988274232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1606988274232" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1607008201224">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1607174760236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607008201224" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607174760236" />
     <state x="814" y="344" width="316" height="351" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1607174723125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

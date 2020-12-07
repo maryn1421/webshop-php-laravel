@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -27,9 +28,7 @@ Route::get('/wau', function () {
     return view('welcome');
 });
 
-Route::get('/admin', function () {
-    return view('welcome');
-});
+Route::get('/admin', [AdminController::class, 'show']);
 
 Route::get('/products', function () {
     return view('welcome');
@@ -52,10 +51,7 @@ Route::get('/admin/all-product', function () {
 */
 
 
-Route::get('/admin/product/{id}', function ($id) {
-    return view('product', ['id' => $id]);
-
-});
+Route::get('/admin/product/{id}',[AdminController::class, 'singleProduct']);
 
 Route::delete('/admin/product/{id}', function ($id) {
     return view('welcome');
