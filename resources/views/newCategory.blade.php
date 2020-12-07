@@ -41,16 +41,11 @@
         <form action="{{ url('admin/new-product')}}" method="POST" class="contact100-form validate-form">
             {{ csrf_field() }}
             <span class="contact100-form-title">
-                    Add a new product
+                    Add a new category
 				</span>
 
-            <div class="wrap-input100 validate-input" data-validate="Please enter the name of the product">
-                <input class="input100" type="text" name="name" placeholder="product name">
-                <span class="focus-input100"></span>
-            </div>
-
-            <div class="wrap-input100 validate-input" data-validate="Please enter the price of the product">
-                <input class="input100" type="number" name="email" placeholder="Product price">
+            <div class="wrap-input100 validate-input" data-validate="Please enter the name of the category">
+                <input class="input100" type="text" name="name" placeholder="category name">
                 <span class="focus-input100"></span>
             </div>
 
@@ -68,3 +63,4 @@
 
 </body>
 </html>
+

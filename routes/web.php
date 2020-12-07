@@ -45,6 +45,9 @@ Route::get('/admin/all-product', function () {
 Route::get('/admin/new-product', function () {
     return view('newProduct');
 });
+Route::get('/admin/new-category', function () {
+    return view('newCategory');
+});
 
 
 /*
