@@ -35,6 +35,7 @@
     <!-- Styles -->
 </head>
 <body>
+@include('components.header')
 
 <div class="main__container">
     <div class="wrap-contact100">
