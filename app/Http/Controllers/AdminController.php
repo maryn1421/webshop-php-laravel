@@ -15,7 +15,11 @@ class AdminController extends Controller
 
     public function show()
     {
-        return view('admin');
+        $categories = category::all();
+
+        $products = product::all();
+
+        return view('admin', ['categories' => $categories, 'products' => $products ]);
     }
 
     public function singleProduct($id) {

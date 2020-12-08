@@ -41,9 +41,6 @@ Route::get('/products', function () {
     return view('welcome');
 });
 
-Route::get('/admin', function () {
-    return view('admin');
-});
 
 Route::get('/admin/all-product', function () {
     return view('welcome');
@@ -57,6 +54,17 @@ Route::get('/admin/new-product', function () {
 Route::get('/admin/new-category', function () {
     return view('newCategory');
 });
+
+
+Route::get('/admin/all-category', function () {
+   $categories = category::all();
+
+   return view('adminAllCategory', ['categories' => $categories]);
+});
+
+
+
+
 
 
 /*
