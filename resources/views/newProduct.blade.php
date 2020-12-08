@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Main page</title>
+    <title>Add a new product</title>
 
     <!--===============================================================================================-->
 
@@ -36,30 +36,50 @@
 </head>
 <body>
 
-<div class="main__container">
+<div class="container-contact100">
     <div class="wrap-contact100">
-        @foreach($categories as $category)
-            <div class="category__header">
-                <h1>{{ $category->name }}</h1>
+        <form action="{{ url('admin/new-product')}}" method="POST" class="contact100-form validate-form" enctype="multipart/form-data">
+            {{ csrf_field() }}
+            <span class="contact100-form-title">
+                    Add a new product
+				</span>
+
+            <div class="wrap-input100 validate-input" data-validate="Please enter the name of the product">
+                <input class="input100" type="text" name="name" placeholder="product name">
+                <span class="focus-input100"></span>
             </div>
-            <div class="products__container">
-                @foreach($products as $product)
-                    @if($product->category_id == $category->id)
-                        <a href="/product/{{$product->id}}">
-                        <div class="product__container">
-                            <img class="product__image" src="{{$product->image}}" alt="">
-                            <h1>{{$product->name}}</h1>
-                            <p>{{$product->price}}$</p>
-                            <button class="product__button">add to cart</button>
-                        </div>
-                        </a>
-                    @endif
+
+            <div class="wrap-input100 validate-input" data-validate="Please enter the price of the product">
+                <input class="input100" type="number" name="price" placeholder="Product price">
+                <span class="focus-input100"></span>
+            </div>
+
+
+
+            <label for="name">Select or <a href="/admin/new-category">create</a> a category</label><select class="form-control" id="category" name="category" data-live-search="true" style="width:100%">
+                @foreach ($categories as $category)
+                    <option class="input100" value="{{ $category->id }}">{{ $category->name }}</option>
                 @endforeach
+            </select>
+            <br>
+            <br>
+
+            <div class="wrap-input100 validate-input" data-validate="Please select the image of the product">
+                <input  type="file" name="image" placeholder="image">
+                <span class="focus-input100"></span>
             </div>
-        @endforeach
+
+
+            <div class="container-contact100-form-btn">
+                <button class="contact100-form-btn">
+						<span>
+							<i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
+							Send
+						</span>
+                </button>
+            </div>
+        </form>
     </div>
 </div>
-
 </body>
 </html>
-

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Main page</title>
+    <title>Laravel</title>
 
     <!--===============================================================================================-->
 
@@ -36,27 +36,28 @@
 </head>
 <body>
 
-<div class="main__container">
+<div class="container-contact100">
     <div class="wrap-contact100">
-        @foreach($categories as $category)
-            <div class="category__header">
-                <h1>{{ $category->name }}</h1>
+        <form action="{{ url('admin/new-category')}}" method="POST" class="contact100-form validate-form">
+            {{ csrf_field() }}
+            <span class="contact100-form-title">
+                    Add a new category
+				</span>
+
+            <div class="wrap-input100 validate-input" data-validate="Please enter the name of the category">
+                <input class="input100" type="text" name="name" placeholder="category name">
+                <span class="focus-input100"></span>
             </div>
-            <div class="products__container">
-                @foreach($products as $product)
-                    @if($product->category_id == $category->id)
-                        <a href="/product/{{$product->id}}">
-                        <div class="product__container">
-                            <img class="product__image" src="{{$product->image}}" alt="">
-                            <h1>{{$product->name}}</h1>
-                            <p>{{$product->price}}$</p>
-                            <button class="product__button">add to cart</button>
-                        </div>
-                        </a>
-                    @endif
-                @endforeach
+
+            <div class="container-contact100-form-btn">
+                <button class="contact100-form-btn">
+						<span>
+							<i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
+							Send
+						</span>
+                </button>
             </div>
-        @endforeach
+        </form>
     </div>
 </div>
 
