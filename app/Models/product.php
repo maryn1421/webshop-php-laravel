@@ -11,5 +11,6 @@ class product extends Model
     private $name;
     private $category_id;
     private $price;
+    private $image;
 
 }

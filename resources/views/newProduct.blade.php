@@ -38,7 +38,7 @@
 
 <div class="container-contact100">
     <div class="wrap-contact100">
-        <form action="{{ url('admin/new-product')}}" method="POST" class="contact100-form validate-form">
+        <form action="{{ url('admin/new-product')}}" method="POST" class="contact100-form validate-form" enctype="multipart/form-data">
             {{ csrf_field() }}
             <span class="contact100-form-title">
                     Add a new product
@@ -54,11 +54,21 @@
                 <span class="focus-input100"></span>
             </div>
 
+
+
             <label for="name">Select or <a href="/admin/new-category">create</a> a category</label><select class="form-control" id="category" name="category" data-live-search="true" style="width:100%">
                 @foreach ($categories as $category)
                     <option class="input100" value="{{ $category->id }}">{{ $category->name }}</option>
                 @endforeach
             </select>
+            <br>
+            <br>
+
+            <div class="wrap-input100 validate-input" data-validate="Please select the image of the product">
+                <input  type="file" name="image" placeholder="image">
+                <span class="focus-input100"></span>
+            </div>
+
 
             <div class="container-contact100-form-btn">
                 <button class="contact100-form-btn">

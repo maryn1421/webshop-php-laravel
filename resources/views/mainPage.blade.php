@@ -41,6 +41,13 @@
         @foreach($categories as $category)
 
             <div><h1>{{ $category->name }}</h1></div>
+            @foreach($products as $product)
+                @if($product->category_id == $category->id)
+                    <h1>{{$product->name}}</h1>
+                    <img src="{{$product->image}}" alt="">
+
+                @endif
+            @endforeach
 
         @endforeach
     </div>

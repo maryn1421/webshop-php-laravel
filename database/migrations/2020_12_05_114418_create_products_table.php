@@ -20,6 +20,7 @@ class CreateProductsTable extends Migration
             $table->string('name')->unique();
             $table->decimal('price', 10, 2);
             $table->integer('category_id')->unsigned();
+            $table->string('image');
             $table->timestamps();
 
             $table->foreign('category_id')->references('id')->on('categories');
