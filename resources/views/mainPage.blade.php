@@ -39,6 +39,7 @@
 <div class="container-contact100">
     <div class="wrap-contact100">
         @foreach($categories as $category)
+
             <div><h1>{{ $category->name }}</h1></div>
 
         @endforeach

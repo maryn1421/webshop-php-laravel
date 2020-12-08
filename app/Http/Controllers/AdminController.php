@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 
 
 use App\Models\category;
+use App\Models\product;
 use Illuminate\Http\Request;
 
 
@@ -22,8 +23,16 @@ class AdminController extends Controller
     }
     public function newProduct(Request $request) {
         $name = $request->name;
-        echo $name;
-        return $request;
+
+        $product = new product();
+
+        $product->name = $name;
+        $product->price = $request->price;
+        $product->category_id = $request->category;
+
+        $product->save();
+
+        return redirect('/');
     }
     public function newCategory(Request $request) {
         $name = $request->name;

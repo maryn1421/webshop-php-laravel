@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class product extends Model
 {
     use HasFactory;
+    private $name;
+    private $category_id;
+    private $price;
+
 }
