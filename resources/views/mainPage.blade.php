@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Main page</title>
 
     <!--===============================================================================================-->
 
@@ -36,19 +36,26 @@
 </head>
 <body>
 
-<div class="container-contact100">
+<div class="main__container">
     <div class="wrap-contact100">
         @foreach($categories as $category)
-
-            <div><h1>{{ $category->name }}</h1></div>
-            @foreach($products as $product)
-                @if($product->category_id == $category->id)
-                    <h1>{{$product->name}}</h1>
-                    <img src="{{$product->image}}" alt="">
-
-                @endif
-            @endforeach
-
+            <div class="category__header">
+                <h1>{{ $category->name }}</h1>
+            </div>
+            <div class="products__container">
+                @foreach($products as $product)
+                    @if($product->category_id == $category->id)
+                        <a href="/product/{{$product->id}}">
+                        <div class="product__container">
+                            <img class="product__image" src="{{$product->image}}" alt="">
+                            <h1>{{$product->name}}</h1>
+                            <p>{{$product->price}}$</p>
+                            <button class="product__button">add to cart</button>
+                        </div>
+                        </a>
+                    @endif
+                @endforeach
+            </div>
         @endforeach
     </div>
 </div>

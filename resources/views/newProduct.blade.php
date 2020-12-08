@@ -81,8 +81,5 @@
         </form>
     </div>
 </div>
-
-{{$categories}}
-
 </body>
 </html>
