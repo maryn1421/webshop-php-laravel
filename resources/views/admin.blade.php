@@ -53,7 +53,8 @@
                         <img class="product__image" src="{{$product->image}}" alt="">
                         <h1>{{$product->name}}</h1>
                         <p>{{$product->price}}$</p>
-                        <button class="product__button">add to cart</button>
+                        <button class="remove__button">remove product</button>
+                        <button class="edit__button">edit product</button>
                     </div>
                 </a>
         @endforeach

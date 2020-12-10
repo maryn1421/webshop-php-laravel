@@ -524,6 +524,26 @@ textarea.input100 {
 
 
     }
+    .remove__button {
+        justify-content: center;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        border: 2px solid #ff2525;
+        border-radius: 7px;
+        color: white;
+        padding: 2px;
+        background-color: #ff2525;
+    }
+    .edit__button {
+        justify-content: center;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        border: 2px solid #1ae2e2;
+        border-radius: 7px;
+        color: white;
+        padding: 2px;
+        background-color: #1ae2e2;
+    }
     .main__container {
         margin-left: 220px;
         width: 100%;
