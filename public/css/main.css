@@ -381,6 +381,7 @@ textarea.input100 {
 
 .products__container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 @media(max-width: 375px) {
@@ -392,6 +393,7 @@ textarea.input100 {
         margin-top: 15px;
         display: block;
         justify-content: center;
+
     }
     .product__container {
         margin-bottom: 15px;
@@ -439,7 +441,7 @@ textarea.input100 {
         display: block;
         text-align: left;
         overflow: hidden;
-        background-color: #333;
+        background-color: #707070;
         width: 100%;
     }
 
@@ -541,7 +543,7 @@ textarea.input100 {
 
     .topnav {
         overflow: hidden;
-        background-color: #333;
+        background-color: #707070;
         position: fixed;
         z-index: 100;
         width: 100%;
@@ -665,7 +667,7 @@ textarea.input100 {
         display: block;
         text-align: left;
         overflow: hidden;
-        background-color: #333;
+        background-color: #707070;
         width: 100%;
     }
 
