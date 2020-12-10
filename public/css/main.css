@@ -596,7 +596,7 @@ textarea.input100 {
     }
 }
 
-@media (max-width: 321px) {
+@media (max-width: 350px) {
 
     .topnav input[type=text] {
         margin-top: 8px;

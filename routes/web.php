@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ProductController;
 use App\Models\category;
 use App\Models\product;
 use Illuminate\Support\Facades\Route;
@@ -76,6 +77,7 @@ Route::get('/admin/all-category', function () {
 
 
 Route::get('/admin/product/{id}',[AdminController::class, 'singleProduct']);
+Route::get('/product/{id}',[ProductController::class, 'singleProduct']);
 
 Route::post('/admin/new-product',[AdminController::class, 'newProduct']);
 Route::post('/admin/new-category',[AdminController::class, 'newCategory']);
