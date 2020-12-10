@@ -43,22 +43,11 @@
             <div class="category__header">
                 <h1>{{ $category->name }}</h1>
             </div>
-
-        @endforeach
-    </div>
-    <div class="products__container">
-        @foreach($products as $product)
-                <a href="/product/{{$product->id}}">
-                    <div class="product__container">
-                        <img class="product__image" src="{{$product->image}}" alt="">
-                        <h1>{{$product->name}}</h1>
-                        <p>{{$product->price}}$</p>
-                        <button class="product__button">add to cart</button>
-                    </div>
-                </a>
         @endforeach
     </div>
 </div>
 
 </body>
 </html>
+
+

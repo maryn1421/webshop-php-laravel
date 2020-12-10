@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ProductController;
 use App\Models\category;
 use App\Models\product;
 use Illuminate\Support\Facades\Route;
@@ -41,9 +42,6 @@ Route::get('/products', function () {
     return view('welcome');
 });
 
-Route::get('/admin', function () {
-    return view('admin');
-});
 
 Route::get('/admin/all-product', function () {
     return view('welcome');
@@ -59,6 +57,17 @@ Route::get('/admin/new-category', function () {
 });
 
 
+Route::get('/admin/all-category', function () {
+   $categories = category::all();
+
+   return view('adminAllCategory', ['categories' => $categories]);
+});
+
+
+
+
+
+
 /*
 |--------------------------------------------------------------------------
 | Product editing Routes
@@ -68,6 +77,7 @@ Route::get('/admin/new-category', function () {
 
 
 Route::get('/admin/product/{id}',[AdminController::class, 'singleProduct']);
+Route::get('/product/{id}',[ProductController::class, 'singleProduct']);
 
 Route::post('/admin/new-product',[AdminController::class, 'newProduct']);
 Route::post('/admin/new-category',[AdminController::class, 'newCategory']);
