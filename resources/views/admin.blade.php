@@ -33,6 +33,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
     <!-- Styles -->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="{{ asset('js/adminPage.js') }}"></script>
+
 </head>
 <body>
 @include('components.header')
@@ -48,15 +52,13 @@
     </div>
     <div class="products__container">
         @foreach($products as $product)
-                <a href="/product/{{$product->id}}">
                     <div class="product__container">
                         <img class="product__image" src="{{$product->image}}" alt="">
                         <h1>{{$product->name}}</h1>
                         <p>{{$product->price}}$</p>
-                        <button class="remove__button">remove product</button>
-                        <button class="edit__button">edit product</button>
+                        <button href="#" class="remove__button">remove product</button>
+                        <button href="/admin/product/{{$product->id}}" class="edit__button">edit product</button>
                     </div>
-                </a>
         @endforeach
     </div>
 </div>

@@ -19,15 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="admin page gets all of the categories and all of the products">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/productPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/suggestions.blade.php" afterDir="false" />
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added edit and remove buttons">
+      <change afterPath="$PROJECT_DIR$/public/js/adminPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/productPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/productPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/suggestions.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/suggestions.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +40,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -213,6 +212,7 @@
       <workItem from="1607418404454" duration="8498000" />
       <workItem from="1607506470550" duration="9390000" />
       <workItem from="1607592516850" duration="1783000" />
+      <workItem from="1607683829749" duration="3527000" />
     </task>
     <task id="LOCAL-00001" summary="add new branch: Development!">
       <created>1606984386050</created>
@@ -333,7 +333,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607438521042</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="removed functions from routes, functions are now separated into controllers">
+      <created>1607601802554</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1607601802554</updated>
+    </task>
+    <task id="LOCAL-00019" summary="edited some styling">
+      <created>1607616144186</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1607616144187</updated>
+    </task>
+    <task id="LOCAL-00020" summary="added edit and remove buttons">
+      <created>1607616652824</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1607616652824</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +390,10 @@
     <MESSAGE value="added file uploading to products" />
     <MESSAGE value="made the page kind of responsive" />
     <MESSAGE value="admin page gets all of the categories and all of the products" />
-    <option name="LAST_COMMIT_MESSAGE" value="admin page gets all of the categories and all of the products" />
+    <MESSAGE value="removed functions from routes, functions are now separated into controllers" />
+    <MESSAGE value="edited some styling" />
+    <MESSAGE value="added edit and remove buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="added edit and remove buttons" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607003216575">
@@ -384,6 +408,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607004708338" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607600235650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607600235650" />
     <state x="838" y="418" key="Github.ShareDialog" timestamp="1606984063778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -396,21 +424,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607004272064" />
-    <state x="-877" y="268" key="NewPhpClassDialog" timestamp="1607508377329">
-      <screen x="-1366" y="98" width="1366" height="728" />
+    <state x="688" y="243" key="NewPhpClassDialog" timestamp="1607600196684">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-877" y="268" key="NewPhpClassDialog/0.0.1920.1040/-1366.98.1366.728@-1366.98.1366.728" timestamp="1607508377329" />
-    <state x="688" y="243" key="NewPhpClassDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607331853919" />
+    <state x="688" y="243" key="NewPhpClassDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607600196684" />
     <state x="794" y="443" key="NewPhpFileDialog" timestamp="1607521589174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-801" y="408" key="NewPhpFileDialog/0.0.1920.1040/-1366.98.1366.728@-1366.98.1366.728" timestamp="1607437319954" />
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607521589174" />
-    <state x="-973" y="266" key="Vcs.Push.Dialog.v2" timestamp="1607438522955">
-      <screen x="-1366" y="98" width="1366" height="728" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1607616654058">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-973" y="266" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.98.1366.728@-1366.98.1366.728" timestamp="1607438522955" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607423887898" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607616654058" />
     <state x="814" y="344" width="316" height="351" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1607174723125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
