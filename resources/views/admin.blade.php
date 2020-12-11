@@ -52,11 +52,22 @@
     </div>
     <div class="products__container">
         @foreach($products as $product)
-                    <div class="product__container">
+                    <div class="product__container"  data-id="{{$product->id}}">
                         <img class="product__image" src="{{$product->image}}" alt="">
                         <h1>{{$product->name}}</h1>
                         <p>{{$product->price}}$</p>
-                        <button href="#" class="remove__button">remove product</button>
+
+                        <a class="remove__button" href="{{ route('admin') }}"
+                           onclick="event.preventDefault();
+                               document.getElementById(
+                               'delete-form-{{$product->id}}').submit();">
+                            Delete
+                        </a>
+                        <form id="delete-form-{{$product->id}}"
+                              + action="{{route('product.remove', $product->id)}}"
+                              method="post">
+                            @csrf @method('DELETE')
+                        </form>
                         <button href="/admin/product/{{$product->id}}" class="edit__button">edit product</button>
                     </div>
         @endforeach

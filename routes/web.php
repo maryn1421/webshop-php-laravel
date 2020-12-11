@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [MainPageController::class, 'listProductsAndCategories']);
 
-Route::get('/admin', [AdminController::class, 'show']);
+Route::get('/admin', [AdminController::class, 'show']) ->name("admin");
 
 Route::get('/admin/new-product', [AdminController::class, 'getViewOfNewProduct']);
 
@@ -45,7 +45,10 @@ Route::post('/admin/new-product', [AdminController::class, 'newProduct']);
 Route::post('/admin/new-category', [AdminController::class, 'newCategory']);
 
 Route::delete('/admin/product/{id}', function ($id) {
-});
+    product::where('id',$id)->delete();
+    return redirect('/admin');
+
+}) ->name('product.remove');
 
 
 /*
