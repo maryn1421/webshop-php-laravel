@@ -40,9 +40,9 @@
 </head>
 <body>
 @include('components.header')
-
+<h4>Categories:</h4> <br>
 <div class="main__container">
-    <div class="wrap-contact100">
+    <div class="category__container">
         @foreach($categories as $category)
             <div class="category__header">
                 <h1>{{ $category->name }}</h1>
@@ -50,7 +50,9 @@
 
         @endforeach
     </div>
+    <h4>Products:</h4> <br>
     <div class="products__container">
+
         @foreach($products as $product)
                     <div class="product__container"  data-id="{{$product->id}}">
                         <img class="product__image" src="{{$product->image}}" alt="">
