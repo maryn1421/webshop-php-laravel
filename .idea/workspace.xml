@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="product deleting is now possible">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added design to admin papge" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,7 +205,7 @@
       <workItem from="1607418404454" duration="8498000" />
       <workItem from="1607506470550" duration="9390000" />
       <workItem from="1607592516850" duration="1783000" />
-      <workItem from="1607683829749" duration="9828000" />
+      <workItem from="1607683829749" duration="10117000" />
     </task>
     <task id="LOCAL-00001" summary="add new branch: Development!">
       <created>1606984386050</created>
@@ -365,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607694510378</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="added design to admin papge">
+      <created>1607696053721</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1607696053721</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +409,8 @@
     <MESSAGE value="added edit and remove buttons" />
     <MESSAGE value="added scrollbar to suggestions" />
     <MESSAGE value="product deleting is now possible" />
-    <option name="LAST_COMMIT_MESSAGE" value="product deleting is now possible" />
+    <MESSAGE value="added design to admin papge" />
+    <option name="LAST_COMMIT_MESSAGE" value="added design to admin papge" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607003216575">
@@ -447,11 +451,11 @@
     </state>
     <state x="-801" y="408" key="NewPhpFileDialog/0.0.1920.1040/-1366.98.1366.728@-1366.98.1366.728" timestamp="1607437319954" />
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607521589174" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1607694511608">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1607696068703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-973" y="266" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.98.1366.728@-1366.98.1366.728" timestamp="1607438522955" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607694511608" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607696068703" />
     <state x="814" y="344" width="316" height="351" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1607174723125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
