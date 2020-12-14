@@ -55,6 +55,12 @@
             </div>
 
 
+            <div class="wrap-input100 validate-input" data-validate="Please enter the name of the product">
+                <input class="input100" type="text" name="description" placeholder="product description">
+                <span class="focus-input100"></span>
+            </div>
+
+
 
             <label for="name">Select or <a href="/admin/new-category">create</a> a category</label><select class="form-control" id="category" name="category" data-live-search="true" style="width:100%">
                 @foreach ($categories as $category)

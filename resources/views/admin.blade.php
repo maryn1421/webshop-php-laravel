@@ -33,12 +33,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
     <!-- Styles -->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="{{ asset('js/adminPage.js') }}"></script>
+
 </head>
 <body>
 @include('components.header')
-
+<h4>Categories:</h4> <br>
 <div class="main__container">
-    <div class="wrap-contact100">
+    <div class="category__container">
         @foreach($categories as $category)
             <div class="category__header">
                 <h1>{{ $category->name }}</h1>
@@ -46,16 +50,28 @@
 
         @endforeach
     </div>
+    <h4>Products:</h4> <br>
     <div class="products__container">
+
         @foreach($products as $product)
-                <a href="/product/{{$product->id}}">
-                    <div class="product__container">
+                    <div class="product__container"  data-id="{{$product->id}}">
                         <img class="product__image" src="{{$product->image}}" alt="">
                         <h1>{{$product->name}}</h1>
                         <p>{{$product->price}}$</p>
-                        <button class="product__button">add to cart</button>
+
+                        <a class="remove__button" href="{{ route('admin') }}"
+                           onclick="event.preventDefault();
+                               document.getElementById(
+                               'delete-form-{{$product->id}}').submit();">
+                            Delete
+                        </a>
+                        <form id="delete-form-{{$product->id}}"
+                              + action="{{route('product.remove', $product->id)}}"
+                              method="post">
+                            @csrf @method('DELETE')
+                        </form>
+                        <button href="/admin/product/{{$product->id}}" class="edit__button">edit product</button>
                     </div>
-                </a>
         @endforeach
     </div>
 </div>

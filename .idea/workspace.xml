@@ -19,6 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="admin page gets all of the categories and all of the products">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/3ca13f77-58e4-4efb-835d-169382618f96.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3ca13f77-58e4-4efb-835d-169382618f96.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
@@ -40,6 +41,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -334,7 +336,49 @@
       <option name="project" value="LOCAL" />
       <updated>1607438521042</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="removed functions from routes, functions are now separated into controllers">
+      <created>1607601802554</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1607601802554</updated>
+    </task>
+    <task id="LOCAL-00019" summary="edited some styling">
+      <created>1607616144186</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1607616144187</updated>
+    </task>
+    <task id="LOCAL-00020" summary="added edit and remove buttons">
+      <created>1607616652824</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1607616652824</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added scrollbar to suggestions">
+      <created>1607688955114</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1607688955114</updated>
+    </task>
+    <task id="LOCAL-00022" summary="product deleting is now possible">
+      <created>1607694510378</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1607694510378</updated>
+    </task>
+    <task id="LOCAL-00023" summary="added design to admin papge">
+      <created>1607696053721</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1607696053721</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,6 +414,12 @@
     <MESSAGE value="added file uploading to products" />
     <MESSAGE value="made the page kind of responsive" />
     <MESSAGE value="admin page gets all of the categories and all of the products" />
-    <option name="LAST_COMMIT_MESSAGE" value="admin page gets all of the categories and all of the products" />
+    <MESSAGE value="removed functions from routes, functions are now separated into controllers" />
+    <MESSAGE value="edited some styling" />
+    <MESSAGE value="added edit and remove buttons" />
+    <MESSAGE value="added scrollbar to suggestions" />
+    <MESSAGE value="product deleting is now possible" />
+    <MESSAGE value="added design to admin papge" />
+    <option name="LAST_COMMIT_MESSAGE" value="added design to admin papge" />
   </component>
 </project>

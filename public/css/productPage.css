@@ -10,7 +10,7 @@
         left: 211px;
         top: 158px;
         bottom: -131px;
-        width: 698px;
+        max-width: 600px;
     }
         .product_title {
             font-size: 40px;
