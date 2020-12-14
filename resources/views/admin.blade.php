@@ -40,7 +40,14 @@
 </head>
 <body>
 @include('components.header')
-<h4>Categories:</h4> <br>
+<div class="admin__buttonContainer">
+    <a href="/admin/new-product" class="admin__newButton active">Add a new product</a>
+    <a href="/admin/new-category" class="admin__newButton active">Add a new category</a>
+</div>
+
+
+
+<h4 class="admin__title">Categories:</h4> <br>
 <div class="main__container">
     <div class="category__container">
         @foreach($categories as $category)
@@ -50,7 +57,7 @@
 
         @endforeach
     </div>
-    <h4>Products:</h4> <br>
+    <h4 class="admin__title">Products:</h4> <br>
     <div class="products__container">
 
         @foreach($products as $product)

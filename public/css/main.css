@@ -550,24 +550,25 @@ div.scrollmenu {
     .category__header {
         margin-right: 20px;
         background: white;
-        border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+        border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
         color: black;
-        box-shadow: 20px 20px rgba(0,0,0,.15);
+        box-shadow: 20px 20px rgba(0, 0, 0, .15);
         transition: all .4s ease;
     }
+
     .category__header:hover {
-        border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
-        box-shadow: 10px 10px rgba(0,0,0,.25);
+        border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+        box-shadow: 10px 10px rgba(0, 0, 0, .25);
     }
 
-/*
-    .category__header {
-        margin-right: 10px;
-        border: 2px solid black;
-        border-radius: 4px;
-    }
+    /*
+        .category__header {
+            margin-right: 10px;
+            border: 2px solid black;
+            border-radius: 4px;
+        }
 
- */
+     */
     .category__container {
         justify-content: space-evenly;
         margin-top: 70px;
@@ -732,6 +733,14 @@ div.scrollmenu {
 @media (max-width: 350px) {
 
 
+    .admin__newButton {
+        color: white;
+        background-color: #4CAF50 ;
+        border: 2px solid #4CAF50;
+        border-radius: 4px;
+        padding: 5px;
+    }
+
 
     .product__image {
         width: 200px;
@@ -839,18 +848,33 @@ div.scrollmenu {
 
 
     .category__header {
-        width: 250px;
         margin-left: auto;
         margin-right: auto;
+        text-align: center;
     }
 
+    .admin__buttonContainer {
+        margin-top: 15px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
 
-
+    .admin__title {
+        margin-top: 25px;
+        text-align: center;
+    }
 
 }
 
 
 @media (min-width: 375px) and (max-width: 800px) {
+
+    .admin__title {
+        margin-top: 25px;
+        text-align: center;
+    }
+
     .wrap-contact100 {
         width: 100%;
     }
@@ -967,4 +991,28 @@ div.scrollmenu {
         border-radius: 5px;
     }
 }
+
+
+.remove__button {
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 2px solid #ff2525;
+    border-radius: 7px;
+    color: white;
+    padding: 2px;
+    background-color: #ff2525;
+}
+
+.edit__button {
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 2px solid #1ae2e2;
+    border-radius: 7px;
+    color: white;
+    padding: 2px;
+    background-color: #1ae2e2;
+}
+
 

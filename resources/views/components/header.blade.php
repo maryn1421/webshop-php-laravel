@@ -8,10 +8,10 @@
 
 <div class="topnav">
     <div class="header__icons">
-        <a class="active" href="/">Home</a>
-        <a href="#for sale">For sale</a>
-        <a href="/admin">Admin</a>
-        <a href="#about">About</a>
+        <a id="home" class="active" href="/">Home</a>
+        <a id="for-sale" href="#for sale">For sale</a>
+        <a id="admin" href="/admin">Admin</a>
+        <a id="about" href="#about">About</a>
         <div class="cart-container" id="cart-container">
             <a href="#cart"><i class="fa fa-shopping-cart cart-icon"></i><span id="size-cart" class="badge" >4</span></a>
         </div> <!--end shopping-cart -->

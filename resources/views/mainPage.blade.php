@@ -33,6 +33,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
     <!-- Styles -->
+    <script type="text/javascript" src="{{ asset('js/mainPage.js') }}"></script>
+
 </head>
 <body>
 @include('components.header')

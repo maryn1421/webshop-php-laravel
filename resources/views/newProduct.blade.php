@@ -80,7 +80,7 @@
                 <button class="contact100-form-btn">
 						<span>
 							<i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
-							Send
+							Add
 						</span>
                 </button>
             </div>
