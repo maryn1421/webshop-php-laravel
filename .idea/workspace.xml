@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added design to admin papge" />
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="edited migration of products">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/newProduct.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/newProduct.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -411,58 +416,5 @@
     <MESSAGE value="product deleting is now possible" />
     <MESSAGE value="added design to admin papge" />
     <option name="LAST_COMMIT_MESSAGE" value="added design to admin papge" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607003216575">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607003216575" />
-    <state x="710" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607335167647">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="710" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607335167647" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1607004708338">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607004708338" />
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607600235650">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607600235650" />
-    <state x="838" y="418" key="Github.ShareDialog" timestamp="1606984063778">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="838" y="418" key="Github.ShareDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1606984063778" />
-    <state x="732" y="225" key="Github.UntrackedFilesDialog" timestamp="1606984078225">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="732" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1606984078225" />
-    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1607004272064">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607004272064" />
-    <state x="688" y="243" key="NewPhpClassDialog" timestamp="1607600196684">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-877" y="268" key="NewPhpClassDialog/0.0.1920.1040/-1366.98.1366.728@-1366.98.1366.728" timestamp="1607508377329" />
-    <state x="688" y="243" key="NewPhpClassDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607600196684" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1607521589174">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-801" y="408" key="NewPhpFileDialog/0.0.1920.1040/-1366.98.1366.728@-1366.98.1366.728" timestamp="1607437319954" />
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607521589174" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1607696068703">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-973" y="266" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.98.1366.728@-1366.98.1366.728" timestamp="1607438522955" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607696068703" />
-    <state x="814" y="344" width="316" height="351" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1607174723125">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="814" y="344" width="316" height="351" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1040/-1366.98.1366.728@0.0.1920.1040" timestamp="1607174723125" />
-    <state x="-866" y="376" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607436601612">
-      <screen x="-1366" y="98" width="1366" height="728" />
-    </state>
-    <state x="-866" y="376" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1366.98.1366.728@-1366.98.1366.728" timestamp="1607436601612" />
   </component>
 </project>
