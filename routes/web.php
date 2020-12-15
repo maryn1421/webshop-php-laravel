@@ -58,6 +58,14 @@ Route::delete('/admin/product/{id}', function ($id) {
 |
 */
 
+Route::delete('/admin/category/{id}', function ($id) {
+    category::where('id',$id)->delete();
+    return redirect('/admin');
+
+}) ->name('category.remove');
+
+
+
 
 
 
