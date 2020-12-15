@@ -53,9 +53,20 @@
         @foreach($categories as $category)
             <div class="category__header">
                 <h1>{{ $category->name }}</h1>
+                <a class="remove__button" href="{{ route('admin') }}"
+                   onclick="event.preventDefault();
+                       document.getElementById(
+                       'delete-form-{{$category->id}}').submit();">
+                    Delete
+                </a>
+                <form id="delete-form-{{$category->id}}"
+                      + action="{{route('category.remove', $category->id)}}"
+                      method="post">
+                    @csrf @method('DELETE')
+                </form>
             </div>
 
-        @endforeach
+        @endforeachad
     </div>
     <h4 class="admin__title">Products:</h4> <br>
     <div class="products__container">
