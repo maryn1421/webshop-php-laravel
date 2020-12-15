@@ -66,7 +66,7 @@
                 </form>
             </div>
 
-        @endforeachad
+        @endforeach
     </div>
     <h4 class="admin__title">Products:</h4> <br>
     <div class="products__container">
