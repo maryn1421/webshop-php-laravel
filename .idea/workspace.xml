@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="finished category deleting">
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_05_114418_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_05_114418_create_products_table.php" afterDir="false" />
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added test file">
+      <change afterPath="$PROJECT_DIR$/tests/Feature/urlTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/adminPageTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/adminPageTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,11 +189,20 @@
       <recent name="C:\Users\maryn\Desktop\projects\webshop2\resources\css" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.urlTest">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="urlTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\urlTest" file="$PROJECT_DIR$/tests/Feature/urlTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.urlTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -210,7 +221,6 @@
       <workItem from="1607592516850" duration="1783000" />
       <workItem from="1607770229093" duration="835000" />
       <workItem from="1607934400546" duration="2793000" />
-      <workItem from="1608020823546" duration="1664000" />
     </task>
     <task id="LOCAL-00001" summary="add new branch: Development!">
       <created>1606984386050</created>
@@ -380,28 +390,7 @@
       <option name="project" value="LOCAL" />
       <updated>1607950840639</updated>
     </task>
-    <task id="LOCAL-00025" summary="added new product and category buttons to admin page">
-      <created>1607954701419</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1607954701419</updated>
-    </task>
-    <task id="LOCAL-00026" summary="added delete form">
-      <created>1608037508704</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1608037508704</updated>
-    </task>
-    <task id="LOCAL-00027" summary="finished category deleting">
-      <created>1608037918520</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1608037918520</updated>
-    </task>
-    <option name="localTasksCounter" value="28" />
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,6 +410,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add new branch: Development!" />
     <MESSAGE value="add new branch: Basics!" />
     <MESSAGE value="added database connection" />
     <MESSAGE value="added new models: Category and Product" />
@@ -443,9 +433,6 @@
     <MESSAGE value="product deleting is now possible" />
     <MESSAGE value="added design to admin papge" />
     <MESSAGE value="edited mobile view" />
-    <MESSAGE value="added new product and category buttons to admin page" />
-    <MESSAGE value="added delete form" />
-    <MESSAGE value="finished category deleting" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished category deleting" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited mobile view" />
   </component>
 </project>

@@ -8,15 +8,20 @@ use Tests\TestCase;
 
 class adminPageTest extends TestCase
 {
-    /**
-     * A basic feature test example.
-     *
-     * @return void
-     */
+
     public function testExample()
     {
         $response = $this->get('/');
 
         $response->assertStatus(200);
     }
+
+
+    public function addNewCategoryButtonRedirects()
+    {
+        $this->visit('/admin')
+            ->click('add a new category')
+            ->seePageIs('/admin/new-category');
+    }
+
 }
