@@ -6,8 +6,11 @@
 @include("components.header")
 
 @section('title', 'Cart')
+<script type="text/javascript" src="{{ asset('js/cartPage.js') }}"></script>
+
 
 @section('content')
+
 
     @if(session('success'))
 
@@ -30,16 +33,18 @@
         <tbody>
 
         <?php $total = 0 ?>
-
         @if(session('cart'))
             @foreach(session('cart') as $id => $details)
 
-                <?php $total += $details['price'] * $details['quantity'] ?>
+                <?php $total += $details['price'] * $details['quantity'];
+                ?>
 
-                <tr>
+
+
+                    <tr>
                     <td data-th="Product">
                         <div class="row">
-                            <div class="col-sm-3 hidden-xs"><img src="{{ $details['photo'] }}" width="100" height="100" class="img-responsive"/></div>
+                            <div class="col-sm-3 hidden-xs"><img src="{{$details['photo']}}" width="100" height="100" class="img-responsive" alt="photo"/></div>
                             <div class="col-sm-9">
                                 <h4 class="nomargin">{{ $details['name'] }}</h4>
                             </div>

@@ -13,7 +13,7 @@
         <a id="admin" href="/admin">Admin</a>
         <a id="about" href="#about">About</a>
         <div class="cart-container" id="cart-container">
-            <a href="#cart"><i class="fa fa-shopping-cart cart-icon"></i><span id="size-cart" class="badge" >4</span></a>
+            <a id="cart-size" href="/cart"><i class="fa fa-shopping-cart cart-icon"></i><span id="cart-size-2" class="badge" >{{ session('cart')!=null?count(session('cart')):0 }}</span></a>
         </div> <!--end shopping-cart -->
 
     </div>

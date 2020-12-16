@@ -35,7 +35,7 @@ class CartController extends Controller
                     "name" => $product->name,
                     "quantity" => 1,
                     "price" => $product->price,
-                    "photo" => $product->photo
+                    "photo" => $product->image
                 ]
             ];
 
@@ -60,7 +60,7 @@ class CartController extends Controller
             "name" => $product->name,
             "quantity" => 1,
             "price" => $product->price,
-            "photo" => $product->photo
+            "photo" => $product->image
         ];
 
         session()->put('cart', $cart);

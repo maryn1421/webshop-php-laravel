@@ -53,7 +53,7 @@
                             <img class="product__image" src="{{$product->image}}" alt="">
                             <h1>{{$product->name}}</h1>
                             <p>{{$product->price}}$</p>
-                            <button class="product__button">add to cart</button>
+                            <a href="{{ url('add-to-cart/'.$product->id) }}" class="product__button">add to cart</a>
                         </div>
                         </a>
                     @endif
