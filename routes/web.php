@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\CartController;
 use App\Http\Controllers\MainPageController;
 use App\Http\Controllers\ProductController;
 use App\Models\category;
@@ -65,6 +66,22 @@ Route::delete('/admin/category/{id}', function ($id) {
 }) ->name('category.remove');
 
 
+
+
+/*
+|--------------------------------------------------------------------------
+| Cart editing Routes
+|--------------------------------------------------------------------------
+|
+*/
+
+Route::get('cart',  [CartController::class, 'cart']);
+
+Route::get('add-to-cart/{id}', [CartController::class, 'addToCart']);
+
+Route::patch('update-cart', [CartController::class, 'update']);
+
+Route::delete('remove-from-cart',  [CartController::class, 'remove']);
 
 
 
