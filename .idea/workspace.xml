@@ -19,10 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added test file">
-      <change afterPath="$PROJECT_DIR$/tests/Feature/urlTest.php" afterDir="false" />
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added tests for urls">
+      <change afterPath="$PROJECT_DIR$/resources/views/cart.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/linkAndButtonTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webshop2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webshop2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/adminPageTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/adminPageTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,6 +163,8 @@
       <path value="$PROJECT_DIR$/vendor/league/commonmark" />
       <path value="$PROJECT_DIR$/vendor/brick/math" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/laravel/browser-kit-testing" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kuo1ZpBBDhDr7kiO68ZH5oK2N3" />
@@ -221,6 +227,7 @@
       <workItem from="1607592516850" duration="1783000" />
       <workItem from="1607770229093" duration="835000" />
       <workItem from="1607934400546" duration="2793000" />
+      <workItem from="1608108323748" duration="814000" />
     </task>
     <task id="LOCAL-00001" summary="add new branch: Development!">
       <created>1606984386050</created>
@@ -390,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607950840639</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="added tests for urls">
+      <created>1608039937953</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1608039937953</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,6 +447,7 @@
     <MESSAGE value="product deleting is now possible" />
     <MESSAGE value="added design to admin papge" />
     <MESSAGE value="edited mobile view" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited mobile view" />
+    <MESSAGE value="added tests for urls" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tests for urls" />
   </component>
 </project>
