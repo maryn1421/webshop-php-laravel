@@ -18,8 +18,13 @@
 
     .product_details {
         position: absolute;
-         right: 200px;
+         right: 300px;
         top: 120px;
+        width: 400px;
+    }
+
+    .product__description {
+        font-size: 25px;
     }
 }
 

@@ -18,6 +18,9 @@
     <div class="product_details">
         <h4 class="product_title">{{$product->name}}</h4>
         <h4 class="product_title">{{$product->price}}$</h4>
+        <p class="product__description">
+            {{$product->description}}
+        </p>
         <button class="product__button">add to cart</button>
     </div>
     {{$suggestions}}

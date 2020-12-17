@@ -50,11 +50,11 @@
                             </div>
                         </div>
                     </td>
-                    <td data-th="Price">{{ $details['price'] }} Ftswit</td>
+                    <td data-th="Price">{{ $details['price'] }} Ft</td>
                     <td data-th="Quantity">
                         <input type="number" value="{{ $details['quantity'] }}" class="form-control quantity" />
                     </td>
-                    <td data-th="Subtotal" class="text-center">{{ $details['price'] * $details['quantity'] }} Ft</td>
+                    <td data-th="Subtotal" class="text-center">{{ $details['price'] * $details['quantity'] }}Ft</td>
                     <td class="actions" data-th="">
                         <button class="btn btn-info btn-sm update-cart" data-id="{{ $id }}"><i class="fa fa-refresh"></i></button>
                         <button class="btn btn-danger btn-sm remove-from-cart" data-id="{{ $id }}"><i class="fa fa-trash-o"></i></button>
@@ -72,7 +72,7 @@
             <td><a href="{{ url('/') }}" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
             <td colspan="2" class="hidden-xs"></td>
             <td class="hidden-xs text-center"><strong>Total {{ $total }} Ft</strong></td>
-            <td><a href="#" class="btn btn-warning"><i class="fa fa-angle-right"></i>Proceed to checkout</a></td>
+            <td><a href="#" class="btn btn-warning">Proceed to checkout <i class="fa fa-angle-right"></i></a></td>
 
         </tr>
         </tfoot>
