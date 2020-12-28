@@ -533,7 +533,6 @@ textarea.input100 {
 }
 
 div.scrollmenu {
-    background-color: #333;
     overflow: auto;
     white-space: nowrap;
 }
@@ -547,18 +546,29 @@ div.scrollmenu {
 }
 
 @media (min-width: 1200px) {
-    .category__header {
-        margin-right: 20px;
-        background: white;
-        border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
-        color: black;
-        box-shadow: 20px 20px rgba(0, 0, 0, .15);
-        transition: all .4s ease;
+    .category__moreButton {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .category__header:hover {
-        border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
-        box-shadow: 10px 10px rgba(0, 0, 0, .25);
+
+    .category__header {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .category__title {
+        position: relative;
+        margin: 0;
+        color: #212121;
+        font-family: Karla, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: 2px;
+        text-transform: uppercase;
     }
 
     /*
@@ -578,12 +588,17 @@ div.scrollmenu {
     }
 
     .product__container {
-        width: 300px;
+        width: 400px;
+        height: 300px;
         border: 3px solid #6c757d;
         border-radius: 5px;
         margin-right: 15px;
         text-align: center;
         align-content: center;
+    }
+
+    .badge {
+        color: black;
     }
 
     .product__image {
@@ -600,7 +615,16 @@ div.scrollmenu {
         padding: 2px;
         background-color: #4CAF50;
 
-
+    }
+    .category__moreButton {
+        border: 3px solid #4CAF50;
+        border-radius: 5px;
+        width: 400px;
+        color: white;
+        background-color: #4CAF50;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        font-size: calc(2vw + 0vh);
     }
 
     .remove__button {
@@ -625,32 +649,33 @@ div.scrollmenu {
         background-color: #1ae2e2;
     }
 
+    .product__title {
+        width: auto;
+        font-size: calc(1vw + 0vh);
+
+    }
+
     .main__container {
-        margin-left: 220px;
-        min-height: 100vh;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -moz-box;
-        display: -ms-flexbox;
+        width: 100%;
+        min-height: 60vh;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         padding: 15px;
         position: relative;
-        background-color: #f2f2f2;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .topnav {
         overflow: hidden;
-        background-color: #707070;
-        position: fixed;
         z-index: 100;
         width: 100%;
     }
 
     .topnav a {
         float: left;
-        color: #f2f2f2;
+        color: #100f0f;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
@@ -680,10 +705,10 @@ div.scrollmenu {
     }
 
     .topnav input[type=text] {
-        padding: 6px;
+        padding: 4px;
         margin-top: 8px;
         font-size: 17px;
-        border: none;
+        border: 2px solid #ddd;
     }
 
     .topnav .search-container button {
@@ -725,6 +750,13 @@ div.scrollmenu {
         text-align: left;
     }
 
+    .products__container {
+        margin-left: auto;
+        margin-right: auto;
+        overflow: auto;
+        white-space: nowrap;
+    }
+
 
 }
 
@@ -733,7 +765,7 @@ div.scrollmenu {
 
     .admin__newButton {
         color: white;
-        background-color: #4CAF50 ;
+        background-color: #4CAF50;
         border: 2px solid #4CAF50;
         border-radius: 4px;
         padding: 5px;

@@ -23,8 +23,6 @@
         </p>
         <button class="product__button">add to cart</button>
     </div>
-    {{$suggestions}}
-
     @include('components.suggestions')
 
 
