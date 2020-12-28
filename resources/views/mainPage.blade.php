@@ -40,10 +40,10 @@
 @include('components.header')
 
 <div class="main__container">
-    <div class="wrap-contact100">
+
         @foreach($categories as $category)
             <div class="category__header">
-                <h1>{{ $category->name }}</h1>
+                <h1 class="category__title">{{ $category->name }}</h1>
             </div>
             <div class="products__container">
                 @foreach($products as $product)
@@ -51,7 +51,7 @@
                         <a href="/product/{{$product->id}}">
                         <div class="product__container">
                             <img class="product__image" src="{{$product->image}}" alt="">
-                            <h1>{{$product->name}}</h1>
+                            <h1 class="product__title">{{$product->name}}</h1>
                             <p>{{$product->price}}$</p>
                             <a href="{{ url('add-to-cart/'.$product->id) }}" class="product__button">add to cart</a>
                         </div>
@@ -59,10 +59,9 @@
                     @endif
                 @endforeach
             </div>
+            <a class="category__moreButton" href="/category/{{$category->id}}">see all</a>
         @endforeach
     </div>
-</div>
-
 </body>
 </html>
 
