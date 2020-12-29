@@ -19,11 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added new design for header">
-      <change afterPath="$PROJECT_DIR$/resources/views/productsByCategory.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/statistics.blade.php" afterDir="false" />
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added productsByCategory.blade.php and statistics.blade.php to views">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_05_114418_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_05_114418_create_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cart.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/newProduct.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/newProduct.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +237,7 @@
       <workItem from="1608205331732" duration="3086000" />
       <workItem from="1608726324317" duration="4636000" />
       <workItem from="1609151619584" duration="6034000" />
-      <workItem from="1609243378331" duration="753000" />
+      <workItem from="1609243378331" duration="4358000" />
     </task>
     <task id="LOCAL-00001" summary="add new branch: Development!">
       <created>1606984386050</created>
@@ -438,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608207491994</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="added productsByCategory.blade.php and statistics.blade.php to views">
+      <created>1609244157972</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1609244157972</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +469,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added new models: Category and Product" />
     <MESSAGE value="added routes for category and product editing / deleting" />
     <MESSAGE value="added database migrations for models" />
     <MESSAGE value="added admin controller" />
@@ -483,6 +493,7 @@
     <MESSAGE value="added routes" />
     <MESSAGE value="switched from $ to forint" />
     <MESSAGE value="remove width from main container" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove width from main container" />
+    <MESSAGE value="added productsByCategory.blade.php and statistics.blade.php to views" />
+    <option name="LAST_COMMIT_MESSAGE" value="added productsByCategory.blade.php and statistics.blade.php to views" />
   </component>
 </project>

@@ -38,7 +38,8 @@
 
 <div class="container-contact100">
     <div class="wrap-contact100">
-        <form action="{{ url('admin/new-product')}}" method="POST" class="contact100-form validate-form" enctype="multipart/form-data">
+        <form action="{{ url('admin/new-product')}}" method="POST" class="contact100-form validate-form"
+              enctype="multipart/form-data">
             {{ csrf_field() }}
             <span class="contact100-form-title">
                     Add a new product
@@ -53,6 +54,10 @@
                 <input class="input100" type="number" name="price" placeholder="Product price">
                 <span class="focus-input100"></span>
             </div>
+            <div class="wrap-input100 validate-input" data-validate="Please enter the quantity of the product">
+                <input class="input100" type="number" name="quantity" placeholder="Product quantity">
+                <span class="focus-input100"></span>
+            </div>
 
 
             <div class="wrap-input100 validate-input" data-validate="Please enter the name of the product">
@@ -61,8 +66,8 @@
             </div>
 
 
-
-            <label for="name">Select or <a href="/admin/new-category">create</a> a category</label><select class="form-control" id="category" name="category" data-live-search="true" style="width:100%">
+            <label for="name">Select or <a href="/admin/new-category">create</a> a category</label><select
+                class="form-control" id="category" name="category" data-live-search="true" style="width:100%">
                 @foreach ($categories as $category)
                     <option class="input100" value="{{ $category->id }}">{{ $category->name }}</option>
                 @endforeach
@@ -71,7 +76,7 @@
             <br>
 
             <div class="wrap-input100 validate-input" data-validate="Please select the image of the product">
-                <input  type="file" name="image" placeholder="image">
+                <input type="file" name="image" placeholder="image">
                 <span class="focus-input100"></span>
             </div>
 

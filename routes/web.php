@@ -39,6 +39,11 @@ Route::get('/admin/all-category', [AdminController::class, 'getViewForAllCategor
 */
 
 
+
+
+Route::post('/update-view', [ProductController::class, 'update']);
+
+
 Route::get('/admin/product/{id}', [AdminController::class, 'singleProduct']);
 Route::get('/product/{id}', [ProductController::class, 'singleProduct']);
 
