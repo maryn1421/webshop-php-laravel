@@ -13,7 +13,7 @@ class MainPageController extends Controller
     {
         $categories = category::all();
 
-        $products = product::all();
+        $products = product::orderBy('views', 'desc')->take(5)->get();
 
         return view('mainPage', ['categories' => $categories, 'products' => $products]);
     }
