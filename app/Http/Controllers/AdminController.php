@@ -17,7 +17,7 @@ class AdminController extends Controller
     {
         $categories = category::all();
 
-        $products = product::orderBy('views', 'asc')->limit(5);
+        $products = product::all();
 
         return view('admin', ['categories' => $categories, 'products' => $products]);
     }
