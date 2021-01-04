@@ -549,7 +549,8 @@ div.scrollmenu {
 
 
     .main__wallpaper {
-        width: 80%;
+        display: block;
+        width: 90%;
         height: 60%;
         margin-left: auto;
         margin-right: auto;
