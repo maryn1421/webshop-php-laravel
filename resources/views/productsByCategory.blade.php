@@ -38,10 +38,10 @@
 <body>
 @include('components.header')
 
-<div class="main__container">
+<div class="category__mainContainer">
             @foreach($products as $product)
                     <a href="/product/{{$product->id}}">
-                        <div class="product__container">
+                        <div class="category__productContainer">
                             <img class="product__image" src="{{$product->image}}" alt="">
                             <h1 class="product__title">{{$product->name}}</h1>
                             <p>{{$product->price}}$</p>

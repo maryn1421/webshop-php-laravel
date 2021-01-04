@@ -19,11 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="fixed admin page">
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added dropdown to cart icon on the header, edited layout of the cart page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainPageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainPageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductByCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductByCategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/mainPage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mainPage.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/productsByCategory.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/productsByCategory.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +239,7 @@
       <workItem from="1608726324317" duration="4636000" />
       <workItem from="1609151619584" duration="6034000" />
       <workItem from="1609243378331" duration="7364000" />
-      <workItem from="1609749559952" duration="3370000" />
+      <workItem from="1609749559952" duration="14293000" />
     </task>
     <task id="LOCAL-00001" summary="add new branch: Development!">
       <created>1606984386050</created>
@@ -474,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609753382783</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="added dropdown to cart icon on the header, edited layout of the cart page">
+      <created>1609755117329</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1609755117329</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +506,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added new pages: new category and new product!" />
     <MESSAGE value="finished new category" />
     <MESSAGE value="edited forms" />
     <MESSAGE value="edited mainPage" />
@@ -519,6 +530,7 @@
     <MESSAGE value="the main page 5 items by category is now listed by popularity" />
     <MESSAGE value="items are now listed a on a new page by category id" />
     <MESSAGE value="fixed admin page" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed admin page" />
+    <MESSAGE value="added dropdown to cart icon on the header, edited layout of the cart page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added dropdown to cart icon on the header, edited layout of the cart page" />
   </component>
 </project>

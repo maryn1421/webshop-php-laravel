@@ -14,7 +14,7 @@ class ProductByCategoryController extends Controller
         $products = product::all();
 
 
-        $products->where('category_id', $id);
+        $products = $products->where('category_id', $id);
 
 
         return view('productsByCategory', ['products' => $products]);
