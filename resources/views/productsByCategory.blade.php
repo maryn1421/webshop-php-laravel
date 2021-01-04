@@ -37,10 +37,9 @@
 <body>
 @include('components.header')
 <div class="category__filterContainer">
-    <div class="filter__price"></div>
-    <p>Value: <span id="demo"></span></p>
+    <div class="filter__price-slider"></div>
+    <p class="slider_value">Value: <span id="demo"></span></p>
     <label for="myRange"></label><input type="range" min="1" max="500000" value="500000" class="slider" id="myRange">
-
     <div class="filter__price"></div>
 
 </div>

@@ -69,7 +69,7 @@
         @endforeach
     </div>
     <h4 class="admin__title">Products:</h4> <br>
-    <div class="products__container">
+    <div class="admin__productsContainer">
 
         @foreach($products as $product)
                     <div class="product__container"  data-id="{{$product->id}}">

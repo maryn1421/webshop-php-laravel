@@ -548,6 +548,21 @@ div.scrollmenu {
 @media (min-width: 1200px) {
 
 
+    .slider {
+        margin-right: auto;
+        margin-left: auto;
+        width: auto;
+    }
+
+
+    .slider_value {
+        text-align: center;
+    }
+
+    #demo {
+        text-align: center;
+    }
+
     .main__wallpaper {
         display: block;
         width: 90%;
@@ -558,6 +573,17 @@ div.scrollmenu {
 
     }
 
+
+    .category__filterContainer {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .filter__price-slider {
+        display: block;
+    }
 
 
 
@@ -634,6 +660,8 @@ div.scrollmenu {
 
     .product__image {
         width: 200px;
+        height: auto;
+        max-height: 180px;
     }
 
     .product__button {
@@ -796,8 +824,14 @@ div.scrollmenu {
     .products__container {
         margin-left: auto;
         margin-right: auto;
-        overflow: auto;
-        white-space: nowrap;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .admin__productsContainer {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
     }
 
 
