@@ -3,6 +3,7 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\MainPageController;
+use App\Http\Controllers\ProductByCategoryController;
 use App\Http\Controllers\ProductController;
 use App\Models\category;
 use App\Models\product;
@@ -90,6 +91,26 @@ Route::delete('remove-from-cart',  [CartController::class, 'remove']);
 
 
 
+/*
+|--------------------------------------------------------------------------
+| Products by category Routes
+|--------------------------------------------------------------------------
+|
+*/
+
+Route::get('/category/{id}',  [ProductByCategoryController::class, 'listItems']);
+
+
+
+/*
+
+Route::get('add-to-cart/{id}', [CartController::class, 'addToCart']);
+
+Route::patch('update-cart', [CartController::class, 'update']);
+
+Route::delete('remove-from-cart',  [CartController::class, 'remove']);
+
+*/
 
 
 

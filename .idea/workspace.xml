@@ -19,10 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="addded viewcounter to database migration and added an ajax post method to js when to product loads in">
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="the main page 5 items by category is now listed by popularity">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductByCategoryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainPageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainPageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/productsByCategory.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/productsByCategory.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +233,8 @@
       <workItem from="1608205331732" duration="3086000" />
       <workItem from="1608726324317" duration="4636000" />
       <workItem from="1609151619584" duration="6034000" />
-      <workItem from="1609243378331" duration="7312000" />
+      <workItem from="1609243378331" duration="7364000" />
+      <workItem from="1609749559952" duration="1584000" />
     </task>
     <task id="LOCAL-00001" summary="add new branch: Development!">
       <created>1606984386050</created>
@@ -451,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609247985624</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="the main page 5 items by category is now listed by popularity">
+      <created>1609256568462</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1609256568462</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +480,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added database migrations for models" />
     <MESSAGE value="added admin controller" />
     <MESSAGE value="added resources for designing" />
     <MESSAGE value="added new pages: new category and new product!" />
@@ -496,6 +504,7 @@
     <MESSAGE value="remove width from main container" />
     <MESSAGE value="added productsByCategory.blade.php and statistics.blade.php to views" />
     <MESSAGE value="addded viewcounter to database migration and added an ajax post method to js when to product loads in" />
-    <option name="LAST_COMMIT_MESSAGE" value="addded viewcounter to database migration and added an ajax post method to js when to product loads in" />
+    <MESSAGE value="the main page 5 items by category is now listed by popularity" />
+    <option name="LAST_COMMIT_MESSAGE" value="the main page 5 items by category is now listed by popularity" />
   </component>
 </project>
