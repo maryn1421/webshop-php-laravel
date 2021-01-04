@@ -19,11 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="the main page 5 items by category is now listed by popularity">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductByCategoryController.php" afterDir="false" />
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="fixed admin page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/productsByCategory.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/productsByCategory.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/header.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +234,7 @@
       <workItem from="1608726324317" duration="4636000" />
       <workItem from="1609151619584" duration="6034000" />
       <workItem from="1609243378331" duration="7364000" />
-      <workItem from="1609749559952" duration="1584000" />
+      <workItem from="1609749559952" duration="3370000" />
     </task>
     <task id="LOCAL-00001" summary="add new branch: Development!">
       <created>1606984386050</created>
@@ -460,7 +460,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609256568462</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="items are now listed a on a new page by category id">
+      <created>1609753162874</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1609753162874</updated>
+    </task>
+    <task id="LOCAL-00034" summary="fixed admin page">
+      <created>1609753382783</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1609753382783</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,8 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added admin controller" />
-    <MESSAGE value="added resources for designing" />
     <MESSAGE value="added new pages: new category and new product!" />
     <MESSAGE value="finished new category" />
     <MESSAGE value="edited forms" />
@@ -505,6 +517,8 @@
     <MESSAGE value="added productsByCategory.blade.php and statistics.blade.php to views" />
     <MESSAGE value="addded viewcounter to database migration and added an ajax post method to js when to product loads in" />
     <MESSAGE value="the main page 5 items by category is now listed by popularity" />
-    <option name="LAST_COMMIT_MESSAGE" value="the main page 5 items by category is now listed by popularity" />
+    <MESSAGE value="items are now listed a on a new page by category id" />
+    <MESSAGE value="fixed admin page" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed admin page" />
   </component>
 </project>

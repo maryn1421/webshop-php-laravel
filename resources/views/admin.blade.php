@@ -74,7 +74,7 @@
         @foreach($products as $product)
                     <div class="product__container"  data-id="{{$product->id}}">
                         <img class="product__image" src="{{$product->image}}" alt="">
-                        <h1>{{$product->name}}</h1>
+                        <h1 class="product__title">{{$product->name}}</h1>
                         <p>{{$product->price}}$</p>
 
                         <a class="remove__button" href="{{ route('admin') }}"
