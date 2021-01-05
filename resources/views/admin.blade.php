@@ -48,7 +48,7 @@
 
 
 <h4 class="admin__title">Categories:</h4> <br>
-<div class="main__container">
+<div class="admin_mainContainer">
     <div class="category__container">
         @foreach($categories as $category)
             <div class="category__header">

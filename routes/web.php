@@ -5,6 +5,7 @@ use App\Http\Controllers\CartController;
 use App\Http\Controllers\MainPageController;
 use App\Http\Controllers\ProductByCategoryController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\StatisticsController;
 use App\Models\category;
 use App\Models\product;
 use Illuminate\Support\Facades\Route;
@@ -114,6 +115,14 @@ Route::delete('remove-from-cart',  [CartController::class, 'remove']);
 
 
 
+/*
+|--------------------------------------------------------------------------
+| Statistics Routes
+|--------------------------------------------------------------------------
+|
+*/
+
+Route::get('/admin/statistics',  [StatisticsController::class, 'listItems']);
 
 
 
