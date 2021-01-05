@@ -38,7 +38,7 @@
 </head>
 <body>
 @include('components.header')
-<img src="/storage/wallpaper.jpg" alt="wallpaper" class="main__wallpaper">
+<img src="/storage/wallpaper.png" alt="wallpaper" class="main__wallpaper">
 <div class="main__container">
 
         @foreach($categories as $category)
