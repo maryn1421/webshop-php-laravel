@@ -3,7 +3,9 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\MainPageController;
+use App\Http\Controllers\ProductByCategoryController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\StatisticsController;
 use App\Models\category;
 use App\Models\product;
 use Illuminate\Support\Facades\Route;
@@ -37,6 +39,11 @@ Route::get('/admin/all-category', [AdminController::class, 'getViewForAllCategor
 |--------------------------------------------------------------------------
 |
 */
+
+
+
+
+Route::post('/update-view', [ProductController::class, 'update']);
 
 
 Route::get('/admin/product/{id}', [AdminController::class, 'singleProduct']);
@@ -85,9 +92,37 @@ Route::delete('remove-from-cart',  [CartController::class, 'remove']);
 
 
 
+/*
+|--------------------------------------------------------------------------
+| Products by category Routes
+|--------------------------------------------------------------------------
+|
+*/
+
+Route::get('/category/{id}',  [ProductByCategoryController::class, 'listItems']);
 
 
 
+/*
+
+Route::get('add-to-cart/{id}', [CartController::class, 'addToCart']);
+
+Route::patch('update-cart', [CartController::class, 'update']);
+
+Route::delete('remove-from-cart',  [CartController::class, 'remove']);
+
+*/
+
+
+
+/*
+|--------------------------------------------------------------------------
+| Statistics Routes
+|--------------------------------------------------------------------------
+|
+*/
+
+Route::get('/admin/statistics',  [StatisticsController::class, 'listItems']);
 
 
 

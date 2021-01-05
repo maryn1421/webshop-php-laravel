@@ -48,7 +48,7 @@
 
 
 <h4 class="admin__title">Categories:</h4> <br>
-<div class="main__container">
+<div class="admin_mainContainer">
     <div class="category__container">
         @foreach($categories as $category)
             <div class="category__header">
@@ -69,12 +69,12 @@
         @endforeach
     </div>
     <h4 class="admin__title">Products:</h4> <br>
-    <div class="products__container">
+    <div class="admin__productsContainer">
 
         @foreach($products as $product)
                     <div class="product__container"  data-id="{{$product->id}}">
                         <img class="product__image" src="{{$product->image}}" alt="">
-                        <h1>{{$product->name}}</h1>
+                        <h1 class="product__title">{{$product->name}}</h1>
                         <p>{{$product->price}}$</p>
 
                         <a class="remove__button" href="{{ route('admin') }}"

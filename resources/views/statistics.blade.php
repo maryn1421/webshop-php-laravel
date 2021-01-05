@@ -33,35 +33,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
     <!-- Styles -->
-    <script type="text/javascript" src="{{ asset('js/mainPage.js') }}"></script>
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="{{ asset('js/adminPage.js') }}"></script>
 
 </head>
 <body>
 @include('components.header')
-<img src="/storage/wallpaper.jpg" alt="wallpaper" class="main__wallpaper">
-<div class="main__container">
 
-        @foreach($categories as $category)
-            <div class="category__header">
-                <h1 class="category__title">{{ $category->name }}</h1>
-            </div>
-            <div class="products__container">
-                @foreach($products as $product)
-                    @if($product->category_id == $category->id)
-                        <a href="/product/{{$product->id}}">
-                        <div class="product__container">
-                            <img class="product__image" src="{{$product->image}}" alt="">
-                            <h1 class="product__title">{{$product->name}}</h1>
-                            <p>{{$product->price}}$</p>
-                            <a href="{{ url('add-to-cart/'.$product->id) }}" class="product__button">add to cart</a>
-                        </div>
-                        </a>
-                    @endif
-                @endforeach
-            </div>
-            <a class="category__moreButton" href="/category/{{$category->id}}">see all</a>
+
+<div class="statistics__mainContainer">
+    <table class="statistics__table">
+        <th>name</th>
+        <th>category</th>
+        <th>price</th>
+        <th>views</th>
+        <th>quantity</th>
+        <th>visit</th>
+        <th>edit</th>
+        @foreach($products as $product)
+            <tr>
+                <td>{{$product->name}}</td>
+                <td>{{$product->category_id}}</td>
+                <td>{{$product->price}}</td>
+                <td>{{$product->views}}</td>
+                <td>{{$product->quantity}}</td>
+                <td><a href="/product/{{$product->id}}">visit</a></td>
+                <td><a href="/admin/product/{{$product->id}}">edit</a></td>
+            </tr>
+
         @endforeach
-    </div>
+    </table>
+</div>
+
+
+
 </body>
 </html>
-

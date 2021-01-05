@@ -89,7 +89,7 @@
         $(".update-cart").click(function (e) {
             e.preventDefault();
 
-            var ele = $(this);
+            let ele = $(this);
 
             $.ajax({
                 url: '{{ url('update-cart') }}',
