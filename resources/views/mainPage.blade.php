@@ -59,7 +59,9 @@
                     @endif
                 @endforeach
             </div>
-            <a class="category__moreButton" href="/category/{{$category->id}}">see all</a>
+    <div class="mainPage__moreButtonContainer">
+        <a class="category__moreButton" href="/category/{{$category->id}}">see all</a>
+    </div>
         @endforeach
     </div>
 </body>

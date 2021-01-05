@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="fixed admin page product listings">
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2020_10_42_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2020_10_42_AM__Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="edited axios version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/mainPage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mainPage.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -236,7 +235,7 @@
       <workItem from="1609243378331" duration="7364000" />
       <workItem from="1609749559952" duration="20111000" />
       <workItem from="1609835659716" duration="5628000" />
-      <workItem from="1609854588120" duration="2005000" />
+      <workItem from="1609854588120" duration="3842000" />
     </task>
     <task id="LOCAL-00001" summary="add new branch: Development!">
       <created>1606984386050</created>
@@ -504,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609776483206</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="edited axios version">
+      <created>1609860701690</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1609860701690</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,7 +530,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="finished saving new product" />
     <MESSAGE value="added file uploading to products" />
     <MESSAGE value="made the page kind of responsive" />
     <MESSAGE value="admin page gets all of the categories and all of the products" />
@@ -549,6 +554,7 @@
     <MESSAGE value="added image to main page" />
     <MESSAGE value="added price filtering to product by category page" />
     <MESSAGE value="fixed admin page product listings" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed admin page product listings" />
+    <MESSAGE value="edited axios version" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited axios version" />
   </component>
 </project>
