@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="updated mainPAge design (product containers and see all button + its container)" />
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added AuthenticationController" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -231,7 +231,7 @@
       <workItem from="1609243378331" duration="7364000" />
       <workItem from="1609749559952" duration="20111000" />
       <workItem from="1609835659716" duration="5628000" />
-      <workItem from="1609854588120" duration="4156000" />
+      <workItem from="1609854588120" duration="4457000" />
     </task>
     <task id="LOCAL-00001" summary="add new branch: Development!">
       <created>1606984386050</created>
@@ -513,7 +513,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609864473223</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="added registration and login templates">
+      <created>1609864578031</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1609864578031</updated>
+    </task>
+    <task id="LOCAL-00042" summary="added AuthenticationController">
+      <created>1609864760854</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1609864760854</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,8 +547,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="made the page kind of responsive" />
-    <MESSAGE value="admin page gets all of the categories and all of the products" />
     <MESSAGE value="removed functions from routes, functions are now separated into controllers" />
     <MESSAGE value="edited some styling" />
     <MESSAGE value="added edit and remove buttons" />
@@ -558,6 +570,8 @@
     <MESSAGE value="fixed admin page product listings" />
     <MESSAGE value="edited axios version" />
     <MESSAGE value="updated mainPAge design (product containers and see all button + its container)" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated mainPAge design (product containers and see all button + its container)" />
+    <MESSAGE value="added registration and login templates" />
+    <MESSAGE value="added AuthenticationController" />
+    <option name="LAST_COMMIT_MESSAGE" value="added AuthenticationController" />
   </component>
 </project>

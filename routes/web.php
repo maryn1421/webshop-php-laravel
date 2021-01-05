@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\AuthenticationController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\MainPageController;
 use App\Http\Controllers\ProductByCategoryController;
@@ -129,9 +130,16 @@ Route::get('/admin/statistics',  [StatisticsController::class, 'listItems']);
 
 
 
+/*
+|--------------------------------------------------------------------------
+| Authentication Routes
+|--------------------------------------------------------------------------
+|
+*/
 
 
-
+Route::get('/login',  [AuthenticationController::class, 'getViewForLogin']);
+Route::get('/register',  [AuthenticationController::class, 'getViewForRegistration']);
 
 
 
