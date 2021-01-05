@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="edited axios version">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/mainPage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mainPage.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="updated mainPAge design (product containers and see all button + its container)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -235,7 +231,7 @@
       <workItem from="1609243378331" duration="7364000" />
       <workItem from="1609749559952" duration="20111000" />
       <workItem from="1609835659716" duration="5628000" />
-      <workItem from="1609854588120" duration="3842000" />
+      <workItem from="1609854588120" duration="4156000" />
     </task>
     <task id="LOCAL-00001" summary="add new branch: Development!">
       <created>1606984386050</created>
@@ -510,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609860701690</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="updated mainPAge design (product containers and see all button + its container)">
+      <created>1609864473223</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1609864473223</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +533,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added file uploading to products" />
     <MESSAGE value="made the page kind of responsive" />
     <MESSAGE value="admin page gets all of the categories and all of the products" />
     <MESSAGE value="removed functions from routes, functions are now separated into controllers" />
@@ -555,6 +557,7 @@
     <MESSAGE value="added price filtering to product by category page" />
     <MESSAGE value="fixed admin page product listings" />
     <MESSAGE value="edited axios version" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited axios version" />
+    <MESSAGE value="updated mainPAge design (product containers and see all button + its container)" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated mainPAge design (product containers and see all button + its container)" />
   </component>
 </project>
