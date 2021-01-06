@@ -141,5 +141,7 @@ Route::get('/admin/statistics',  [StatisticsController::class, 'listItems']);
 Route::get('/login',  [AuthenticationController::class, 'getViewForLogin']);
 Route::get('/register',  [AuthenticationController::class, 'getViewForRegistration']);
 
+Route::post('/saveNewUser', [AuthenticationController::class, 'saveNewUser']);
+
 
 

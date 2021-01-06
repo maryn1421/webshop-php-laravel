@@ -38,7 +38,7 @@
 
 <div class="container-contact100">
     <div class="wrap-contact100">
-        <form action="#" method="POST" class="contact100-form validate-form"
+        <form action="{{ url('/saveNewUser')}}" method="POST" class="contact100-form validate-form"
               enctype="multipart/form-data">
             {{ csrf_field() }}
             <span class="contact100-form-title">
