@@ -6,6 +6,7 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 
 class AuthenticationController extends Controller
 {
@@ -43,7 +44,7 @@ class AuthenticationController extends Controller
             $user->city = $request->city;
             $user->address = $request->address;
             $user->phone = $request->phone;
-            $user->password = $request->password1;
+            $user->password = Hash::make($request->password1);
             $user->zip = $request->zip;
 
 
