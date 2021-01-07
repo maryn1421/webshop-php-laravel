@@ -19,9 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added register input validations">
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added route and the action to the form">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/registration.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/registration.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +238,8 @@
       <workItem from="1609749559952" duration="20111000" />
       <workItem from="1609835659716" duration="5628000" />
       <workItem from="1609854588120" duration="7935000" />
-      <workItem from="1609922730994" duration="2232000" />
+      <workItem from="1609922730994" duration="4032000" />
+      <workItem from="1610011212795" duration="3146000" />
     </task>
     <task id="LOCAL-00001" summary="add new branch: Development!">
       <created>1606984386050</created>
@@ -545,7 +549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609950151706</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="added route and the action to the form">
+      <created>1609950624177</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1609950624177</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,7 +576,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added edit and remove buttons" />
     <MESSAGE value="added scrollbar to suggestions" />
     <MESSAGE value="product deleting is now possible" />
     <MESSAGE value="added design to admin papge" />
@@ -590,6 +600,7 @@
     <MESSAGE value="added AuthenticationController" />
     <MESSAGE value="added routes for /login and /register" />
     <MESSAGE value="added register input validations" />
-    <option name="LAST_COMMIT_MESSAGE" value="added register input validations" />
+    <MESSAGE value="added route and the action to the form" />
+    <option name="LAST_COMMIT_MESSAGE" value="added route and the action to the form" />
   </component>
 </project>
