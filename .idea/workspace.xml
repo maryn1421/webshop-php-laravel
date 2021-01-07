@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="finished registration validation">
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="adding hashing to password saving">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +238,7 @@
       <workItem from="1609835659716" duration="5628000" />
       <workItem from="1609854588120" duration="7935000" />
       <workItem from="1609922730994" duration="4032000" />
-      <workItem from="1610011212795" duration="3855000" />
+      <workItem from="1610011212795" duration="7842000" />
     </task>
     <task id="LOCAL-00001" summary="add new branch: Development!">
       <created>1606984386050</created>
@@ -560,7 +562,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610014756615</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="adding hashing to password saving">
+      <created>1610015551233</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1610015551233</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,7 +589,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="product deleting is now possible" />
     <MESSAGE value="added design to admin papge" />
     <MESSAGE value="edited mobile view" />
     <MESSAGE value="added tests for urls" />
@@ -605,6 +613,7 @@
     <MESSAGE value="added register input validations" />
     <MESSAGE value="added route and the action to the form" />
     <MESSAGE value="finished registration validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished registration validation" />
+    <MESSAGE value="adding hashing to password saving" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding hashing to password saving" />
   </component>
 </project>

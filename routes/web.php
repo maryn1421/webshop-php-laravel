@@ -142,6 +142,7 @@ Route::get('/login',  [AuthenticationController::class, 'getViewForLogin']);
 Route::get('/register',  [AuthenticationController::class, 'getViewForRegistration']);
 
 Route::post('/saveNewUser', [AuthenticationController::class, 'saveNewUser']);
+Route::post('/login', [AuthenticationController::class, 'loginUser']);
 
 
 

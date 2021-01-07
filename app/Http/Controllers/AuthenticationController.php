@@ -7,6 +7,7 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Redirect;
 
 class AuthenticationController extends Controller
 {
@@ -35,26 +36,60 @@ class AuthenticationController extends Controller
             'address' => 'required'
         ]);
 
-            $user = new User();
+        $user = new User();
 
-            $user->username = $request->username;
-            $user->name = $request->name;
-            $user->email = $request->email;
-            $user->state = $request->state;
-            $user->city = $request->city;
-            $user->address = $request->address;
-            $user->phone = $request->phone;
-            $user->password = Hash::make($request->password1);
-            $user->zip = $request->zip;
-
-
-            $user->save();
-
-            return redirect('/');
+        $user->username = $request->username;
+        $user->name = $request->name;
+        $user->email = $request->email;
+        $user->state = $request->state;
+        $user->city = $request->city;
+        $user->address = $request->address;
+        $user->phone = $request->phone;
+        $user->password = Hash::make($request->password1);
+        $user->zip = $request->zip;
 
 
+        $user->save();
+
+        return redirect('/');
+
+
+    }
+
+
+    public function loginUser(Request $request)
+    {
+        $validated = $request->validate([
+            'email' => 'required|email',
+            'password1' => 'required'
+        ]);
+
+
+        $email = $request->email;
+        $password = $request->password1;
+
+
+        $user = User::where('email', '=', $email)->first();
+
+
+
+        if ($user !== null) {
+            if (Hash::check($password, $user->password)) {
+                return redirect('/');
+            }
+            else {
+                return Redirect::back()->withErrors(['Invalid password, please try again']);
+            }
+        }
+        else {
+            return Redirect::back()->withErrors(['Invalid email address, please try again or register a new account']);
         }
 
+
+
+
+
+    }
 
 
 }
