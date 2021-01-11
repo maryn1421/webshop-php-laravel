@@ -104,4 +104,13 @@ class AuthenticationController extends Controller
     }
 
 
+    public function logout() {
+        if (session()->get("user")) {
+            session()->remove("user");
+        }
+
+        return redirect('/');
+    }
+
+
 }

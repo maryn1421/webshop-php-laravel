@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="only admins are now able to do the admin things, it is handled now if the user is admin or not" />
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added logout link to header (its visible only if the user is logged in)">
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -235,14 +238,7 @@
       <workItem from="1609922730994" duration="4032000" />
       <workItem from="1610011212795" duration="14360000" />
       <workItem from="1610098838119" duration="2685000" />
-      <workItem from="1610353872018" duration="4563000" />
-    </task>
-    <task id="LOCAL-00001" summary="add new branch: Development!">
-      <created>1606984386050</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1606984386050</updated>
+      <workItem from="1610353872018" duration="4905000" />
     </task>
     <task id="LOCAL-00002" summary="add new branch: Basics!">
       <created>1606985529320</created>
@@ -580,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610360248933</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="added logout link to header (its visible only if the user is logged in)">
+      <created>1610360675429</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1610360675430</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +603,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added tests for urls" />
     <MESSAGE value="added cart template" />
     <MESSAGE value="added routes" />
     <MESSAGE value="switched from $ to forint" />
@@ -625,6 +627,7 @@
     <MESSAGE value="adding hashing to password saving" />
     <MESSAGE value="added login database check, error messages if email or password is wrong" />
     <MESSAGE value="only admins are now able to do the admin things, it is handled now if the user is admin or not" />
-    <option name="LAST_COMMIT_MESSAGE" value="only admins are now able to do the admin things, it is handled now if the user is admin or not" />
+    <MESSAGE value="added logout link to header (its visible only if the user is logged in)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added logout link to header (its visible only if the user is logged in)" />
   </component>
 </project>

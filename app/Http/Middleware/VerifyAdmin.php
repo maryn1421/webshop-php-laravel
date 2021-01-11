@@ -23,6 +23,9 @@ class VerifyAdmin
                 abort(403, "You dont have access to this!");
             }
         }
+        else{
+            abort(403, "You dont have access to this!");
+        }
         return $next($request);
     }
 }
