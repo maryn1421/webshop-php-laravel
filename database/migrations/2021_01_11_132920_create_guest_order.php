@@ -15,6 +15,15 @@ class CreateGuestOrder extends Migration
     {
         Schema::create('guest_order', function (Blueprint $table) {
             $table->id();
+            $table->text("cart");
+            $table->string('name');
+            $table->string('email');
+            $table->string('city');
+            $table->string('state');
+            $table->string('address');
+            $table->string('phone');
+            $table->string('zip');
+            $table->string("status");
             $table->timestamps();
         });
     }
