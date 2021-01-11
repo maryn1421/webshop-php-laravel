@@ -13,8 +13,11 @@ class CreateRegistratedOrder extends Migration
      */
     public function up()
     {
-        Schema::create('registrated_order', function (Blueprint $table) {
+        Schema::create('registered_order', function (Blueprint $table) {
             $table->id();
+            $table->text("cart");
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            $table->text("status");
             $table->timestamps();
         });
     }
