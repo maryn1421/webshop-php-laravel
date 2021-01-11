@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="fixed admin page product listings">
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2020_10_42_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2020_10_42_AM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/mainPage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mainPage.blade.php" afterDir="false" />
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added logout link to header (its visible only if the user is logged in)">
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,14 +234,11 @@
       <workItem from="1609243378331" duration="7364000" />
       <workItem from="1609749559952" duration="20111000" />
       <workItem from="1609835659716" duration="5628000" />
-      <workItem from="1609854588120" duration="2005000" />
-    </task>
-    <task id="LOCAL-00001" summary="add new branch: Development!">
-      <created>1606984386050</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1606984386050</updated>
+      <workItem from="1609854588120" duration="7935000" />
+      <workItem from="1609922730994" duration="4032000" />
+      <workItem from="1610011212795" duration="14360000" />
+      <workItem from="1610098838119" duration="2685000" />
+      <workItem from="1610353872018" duration="4905000" />
     </task>
     <task id="LOCAL-00002" summary="add new branch: Basics!">
       <created>1606985529320</created>
@@ -504,7 +499,91 @@
       <option name="project" value="LOCAL" />
       <updated>1609776483206</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="edited axios version">
+      <created>1609860701690</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1609860701690</updated>
+    </task>
+    <task id="LOCAL-00040" summary="updated mainPAge design (product containers and see all button + its container)">
+      <created>1609864473223</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1609864473223</updated>
+    </task>
+    <task id="LOCAL-00041" summary="added registration and login templates">
+      <created>1609864578031</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1609864578031</updated>
+    </task>
+    <task id="LOCAL-00042" summary="added AuthenticationController">
+      <created>1609864760854</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1609864760854</updated>
+    </task>
+    <task id="LOCAL-00043" summary="added routes for /login and /register">
+      <created>1609865040513</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1609865040513</updated>
+    </task>
+    <task id="LOCAL-00044" summary="added register input validations">
+      <created>1609950151706</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1609950151706</updated>
+    </task>
+    <task id="LOCAL-00045" summary="added route and the action to the form">
+      <created>1609950624177</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1609950624177</updated>
+    </task>
+    <task id="LOCAL-00046" summary="finished registration validation">
+      <created>1610014756615</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1610014756615</updated>
+    </task>
+    <task id="LOCAL-00047" summary="adding hashing to password saving">
+      <created>1610015551233</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1610015551233</updated>
+    </task>
+    <task id="LOCAL-00048" summary="added login database check, error messages if email or password is wrong">
+      <created>1610020614954</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1610020614954</updated>
+    </task>
+    <task id="LOCAL-00049" summary="only admins are now able to do the admin things, it is handled now if the user is admin or not">
+      <created>1610360248932</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1610360248933</updated>
+    </task>
+    <task id="LOCAL-00050" summary="added logout link to header (its visible only if the user is logged in)">
+      <created>1610360675429</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1610360675430</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,18 +603,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="finished saving new product" />
-    <MESSAGE value="added file uploading to products" />
-    <MESSAGE value="made the page kind of responsive" />
-    <MESSAGE value="admin page gets all of the categories and all of the products" />
-    <MESSAGE value="removed functions from routes, functions are now separated into controllers" />
-    <MESSAGE value="edited some styling" />
-    <MESSAGE value="added edit and remove buttons" />
-    <MESSAGE value="added scrollbar to suggestions" />
-    <MESSAGE value="product deleting is now possible" />
-    <MESSAGE value="added design to admin papge" />
-    <MESSAGE value="edited mobile view" />
-    <MESSAGE value="added tests for urls" />
     <MESSAGE value="added cart template" />
     <MESSAGE value="added routes" />
     <MESSAGE value="switched from $ to forint" />
@@ -549,6 +616,18 @@
     <MESSAGE value="added image to main page" />
     <MESSAGE value="added price filtering to product by category page" />
     <MESSAGE value="fixed admin page product listings" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed admin page product listings" />
+    <MESSAGE value="edited axios version" />
+    <MESSAGE value="updated mainPAge design (product containers and see all button + its container)" />
+    <MESSAGE value="added registration and login templates" />
+    <MESSAGE value="added AuthenticationController" />
+    <MESSAGE value="added routes for /login and /register" />
+    <MESSAGE value="added register input validations" />
+    <MESSAGE value="added route and the action to the form" />
+    <MESSAGE value="finished registration validation" />
+    <MESSAGE value="adding hashing to password saving" />
+    <MESSAGE value="added login database check, error messages if email or password is wrong" />
+    <MESSAGE value="only admins are now able to do the admin things, it is handled now if the user is admin or not" />
+    <MESSAGE value="added logout link to header (its visible only if the user is logged in)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added logout link to header (its visible only if the user is logged in)" />
   </component>
 </project>

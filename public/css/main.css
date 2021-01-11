@@ -623,13 +623,6 @@ div.scrollmenu {
         margin-left: auto;
     }
 
-    .category__moreButton {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-
     .category__header {
         margin-left: auto;
         margin-right: auto;
@@ -711,9 +704,11 @@ div.scrollmenu {
         border-radius: 5px;
         width: 400px;
         color: black;
-        margin-top: 25px;
+        margin-top: 35px;
         margin-bottom: 20px;
         font-size: calc(2vw + 0vh);
+        padding-inline: 100px;
+        padding-block: 20px;
     }
 
     .remove__button {
@@ -747,10 +742,6 @@ div.scrollmenu {
     .main__container {
         width: 100%;
         min-height: 60vh;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        padding: 15px;
         position: relative;
         margin-left: auto;
         margin-right: auto;
@@ -856,6 +847,7 @@ div.scrollmenu {
         margin-right: auto;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .admin__productsContainer {
@@ -864,6 +856,14 @@ div.scrollmenu {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .mainPage__moreButtonContainer {
+        text-align: center;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
 
 
