@@ -25,6 +25,7 @@
 
             @if(session('user') != null)
                 <a href="#">profile</a>
+                <a href="/logout">logout</a>
             @else
                 <a href="/register">register</a>
                 <a href="/login">login</a>
