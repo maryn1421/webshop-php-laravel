@@ -14,11 +14,17 @@ class CreateRegistratedOrder extends Migration
     public function up()
     {
         Schema::create('registered_order', function (Blueprint $table) {
+            $table->engine = 'InnoDB';
+
+
             $table->id();
             $table->text("cart");
-            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            $table->bigInteger('user_id')->unsigned();
             $table->text("status");
             $table->timestamps();
+
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+
         });
     }
 
