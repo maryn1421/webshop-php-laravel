@@ -19,10 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="adding hashing to password saving">
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added login database check, error messages if email or password is wrong">
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyAdmin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -238,7 +243,9 @@
       <workItem from="1609835659716" duration="5628000" />
       <workItem from="1609854588120" duration="7935000" />
       <workItem from="1609922730994" duration="4032000" />
-      <workItem from="1610011212795" duration="7842000" />
+      <workItem from="1610011212795" duration="14360000" />
+      <workItem from="1610098838119" duration="2685000" />
+      <workItem from="1610353872018" duration="4172000" />
     </task>
     <task id="LOCAL-00001" summary="add new branch: Development!">
       <created>1606984386050</created>
@@ -569,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610015551233</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="added login database check, error messages if email or password is wrong">
+      <created>1610020614954</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1610020614954</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,7 +603,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added design to admin papge" />
     <MESSAGE value="edited mobile view" />
     <MESSAGE value="added tests for urls" />
     <MESSAGE value="added cart template" />
@@ -614,6 +627,7 @@
     <MESSAGE value="added route and the action to the form" />
     <MESSAGE value="finished registration validation" />
     <MESSAGE value="adding hashing to password saving" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding hashing to password saving" />
+    <MESSAGE value="added login database check, error messages if email or password is wrong" />
+    <option name="LAST_COMMIT_MESSAGE" value="added login database check, error messages if email or password is wrong" />
   </component>
 </project>

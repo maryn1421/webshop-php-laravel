@@ -47,6 +47,7 @@ class AuthenticationController extends Controller
         $user->phone = $request->phone;
         $user->password = Hash::make($request->password1);
         $user->zip = $request->zip;
+        $user->isAdmin = 0;
 
 
         $user->save();
@@ -75,6 +76,17 @@ class AuthenticationController extends Controller
 
         if ($user !== null) {
             if (Hash::check($password, $user->password)) {
+
+                $userSession = session()->get('user');
+
+                if(!$userSession) {
+
+                    $userSession = [
+                            "id" => $user -> id,
+                            "username" =>  Hash::make($user->username)
+                    ];
+                    session()->put('user', $userSession);
+                }
                 return redirect('/');
             }
             else {

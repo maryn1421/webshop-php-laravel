@@ -20,6 +20,7 @@ class User extends Model
     private $phone;
     private $password;
     private $zip;
+    private $isAdmin;
 
     /*
      *  $table->string('username');

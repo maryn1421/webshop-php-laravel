@@ -24,6 +24,7 @@ class CreateUsersTable extends Migration
             $table->string('phone');
             $table->string('password');
             $table->string('zip');
+            $table->integer("isAdmin");
             $table->timestamps();
         });
     }

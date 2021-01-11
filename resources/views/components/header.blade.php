@@ -23,6 +23,12 @@
             <a id="about" href="#about">About</a>
 
 
+            @if(session('user') != null)
+                <a href="#">profile</a>
+            @else
+                <a href="/register">register</a>
+                <a href="/login">login</a>
+            @endif
 
         </div>
 
