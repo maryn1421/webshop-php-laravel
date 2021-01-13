@@ -13,7 +13,7 @@ class CreateRegistratedOrder extends Migration
      */
     public function up()
     {
-        Schema::create('registered_order', function (Blueprint $table) {
+        Schema::create('registered_orders', function (Blueprint $table) {
             $table->engine = 'InnoDB';
 
 
@@ -35,6 +35,6 @@ class CreateRegistratedOrder extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('registrated_order');
+        Schema::dropIfExists('registered_orders');
     }
 }

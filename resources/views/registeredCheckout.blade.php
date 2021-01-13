@@ -33,11 +33,14 @@
 @endif
 
 
+
 <div class="registered__main">
     <div class="registered__orderMain">
         <h1>Shipping information</h1>
 
-        <form action="" class="order-form">
+        <form action="{{url('registered-checkout')}}" method="POST" class="order-form">
+            {{ csrf_field() }}
+
             <p>Name:</p>
             <input name="name" type="text" value="{{$user->name}}">
             <p>email:</p>

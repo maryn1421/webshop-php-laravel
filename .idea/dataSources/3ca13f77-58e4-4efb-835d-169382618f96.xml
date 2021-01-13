@@ -1072,7 +1072,7 @@
     <table id="340" parent="8" name="products">
       <Collation>utf8mb4_unicode_ci</Collation>
     </table>
-    <table id="341" parent="8" name="registered_order">
+    <table id="341" parent="8" name="registered_orders">
       <Collation>utf8mb4_unicode_ci</Collation>
     </table>
     <table id="342" parent="8" name="users">
@@ -1358,7 +1358,7 @@
       <Position>6</Position>
       <DataType>timestamp|0s</DataType>
     </column>
-    <index id="400" parent="341" name="registered_order_user_id_foreign">
+    <index id="400" parent="341" name="registered_orders_user_id_foreign">
       <ColNames>user_id</ColNames>
       <Type>btree</Type>
     </index>
@@ -1367,7 +1367,7 @@
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="402" parent="341" name="registered_order_user_id_foreign">
+    <foreign-key id="402" parent="341" name="registered_orders_user_id_foreign">
       <ColNames>user_id</ColNames>
       <RefTableName>users</RefTableName>
       <RefColNames>id</RefColNames>
