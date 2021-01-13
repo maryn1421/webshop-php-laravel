@@ -1060,7 +1060,7 @@
     <table id="336" parent="8" name="failed_jobs">
       <Collation>utf8mb4_unicode_ci</Collation>
     </table>
-    <table id="337" parent="8" name="guest_order">
+    <table id="337" parent="8" name="guest_orders">
       <Collation>utf8mb4_unicode_ci</Collation>
     </table>
     <table id="338" parent="8" name="migrations">

@@ -19,11 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="registeredOrder are working now">
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added routes and validation to guestOrder">
+      <change afterPath="$PROJECT_DIR$/app/Mail/WelcomeMail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/GuestOrder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/emails/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3ca13f77-58e4-4efb-835d-169382618f96.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3ca13f77-58e4-4efb-835d-169382618f96.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_11_132920_create_guest_order.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_11_132920_create_guest_order.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/guestCheckout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/guestCheckout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,14 +248,7 @@
       <workItem from="1610098838119" duration="2685000" />
       <workItem from="1610353872018" duration="4905000" />
       <workItem from="1610440464533" duration="8818000" />
-      <workItem from="1610525981020" duration="7647000" />
-    </task>
-    <task id="LOCAL-00011" summary="edited forms">
-      <created>1607366870768</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1607366870768</updated>
+      <workItem from="1610525981020" duration="12967000" />
     </task>
     <task id="LOCAL-00012" summary="edited mainPage">
       <created>1607421066724</created>
@@ -587,7 +586,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610535358730</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="added routes and validation to guestOrder">
+      <created>1610536402790</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1610536402790</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,7 +613,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added dropdown to cart icon on the header, edited layout of the cart page" />
     <MESSAGE value="added image to main page" />
     <MESSAGE value="added price filtering to product by category page" />
     <MESSAGE value="fixed admin page product listings" />
@@ -632,6 +637,7 @@
     <MESSAGE value="added form validation for registeredCheckout" />
     <MESSAGE value="added registeredOrder model" />
     <MESSAGE value="registeredOrder are working now" />
-    <option name="LAST_COMMIT_MESSAGE" value="registeredOrder are working now" />
+    <MESSAGE value="added routes and validation to guestOrder" />
+    <option name="LAST_COMMIT_MESSAGE" value="added routes and validation to guestOrder" />
   </component>
 </project>

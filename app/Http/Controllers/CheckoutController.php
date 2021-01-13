@@ -4,10 +4,14 @@
 namespace App\Http\Controllers;
 
 
+use App\Models\GuestOrder;
 use App\Models\RegisteredOrder;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Mail;
+
 
 class CheckoutController extends Controller
 {
@@ -55,6 +59,8 @@ class CheckoutController extends Controller
 
                 $order->save();
 
+
+
                 return redirect('/');
             } else {
                 return Redirect::back()->withErrors(['An error is with the cart, please check it']);
@@ -87,14 +93,26 @@ class CheckoutController extends Controller
             'phone' => 'required',
             'city' => 'required',
             'zip' => 'required',
-            'address' => 'required'
+            'address' => 'required',
+            'state' => 'required',
         ]);
 
 
         if (session()->get('cart')) {
+            $order = new GuestOrder();
 
+            $order->cart = $this->convert_multi_array(session()->get('cart'));
+            $order->name = $request->name;
+            $order->email = $request->email;
+            $order->state = $request->state;
+            $order->city = $request->city;
+            $order->address = $request->address;
+            $order->phone = $request->phone;
+            $order->state = $request->state;
+            $order->zip = $request->zip;
+            $order->status = 'new';
 
-
+            $order->save();
 
             return redirect("/");
         }

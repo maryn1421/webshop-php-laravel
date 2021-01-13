@@ -13,7 +13,7 @@ class CreateGuestOrder extends Migration
      */
     public function up()
     {
-        Schema::create('guest_order', function (Blueprint $table) {
+        Schema::create('guest_orders', function (Blueprint $table) {
             $table->id();
             $table->text("cart");
             $table->string('name');
@@ -35,6 +35,6 @@ class CreateGuestOrder extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('guest_order');
+        Schema::dropIfExists('guest_orders');
     }
 }

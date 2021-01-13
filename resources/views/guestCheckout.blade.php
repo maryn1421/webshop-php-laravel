@@ -50,7 +50,7 @@
             <p>city:</p>
             <input name="city" type="text" >
             <p>state:</p>
-            <input type="text" name="city" >
+            <input type="text" name="state" >
             <p>zip code:</p>
             <input type="number" name="zip">
             <p>address:</p>
