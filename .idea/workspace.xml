@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added registeredOrder model">
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="registeredOrder are working now">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_11_133148_create_registrated_order.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_11_133148_create_registrated_order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/registeredCheckout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/registeredCheckout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/guestCheckout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/guestCheckout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -243,14 +242,7 @@
       <workItem from="1610098838119" duration="2685000" />
       <workItem from="1610353872018" duration="4905000" />
       <workItem from="1610440464533" duration="8818000" />
-      <workItem from="1610525981020" duration="6597000" />
-    </task>
-    <task id="LOCAL-00010" summary="finished new category">
-      <created>1607354649390</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1607354649390</updated>
+      <workItem from="1610525981020" duration="7647000" />
     </task>
     <task id="LOCAL-00011" summary="edited forms">
       <created>1607366870768</created>
@@ -588,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610532875235</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="registeredOrder are working now">
+      <created>1610535358730</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1610535358730</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,7 +607,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fixed admin page" />
     <MESSAGE value="added dropdown to cart icon on the header, edited layout of the cart page" />
     <MESSAGE value="added image to main page" />
     <MESSAGE value="added price filtering to product by category page" />
@@ -633,6 +631,7 @@
     <MESSAGE value="edited registered order template, adding new routes for ordering" />
     <MESSAGE value="added form validation for registeredCheckout" />
     <MESSAGE value="added registeredOrder model" />
-    <option name="LAST_COMMIT_MESSAGE" value="added registeredOrder model" />
+    <MESSAGE value="registeredOrder are working now" />
+    <option name="LAST_COMMIT_MESSAGE" value="registeredOrder are working now" />
   </component>
 </project>

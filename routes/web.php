@@ -139,8 +139,10 @@ Route::get('/admin/statistics',  [StatisticsController::class, 'listItems'])->mi
 
 Route::get('/checkout',  [CheckoutController::class, 'getViewForCheckOutPage']);
 Route::get('/registered-checkout',  [CheckoutController::class, 'getViewForRegisteredCheckout']);
+Route::get('/guest-checkout',  [CheckoutController::class, 'getViewForGuestCheckout']);
 
 Route::post('/registered-checkout', [CheckoutController::class, 'saveRegistered']);
+Route::post('/guest-checkout', [CheckoutController::class, 'saveGuest']);
 
 
 /*

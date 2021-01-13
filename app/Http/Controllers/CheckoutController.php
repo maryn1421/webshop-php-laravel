@@ -68,7 +68,41 @@ class CheckoutController extends Controller
 
     function convert_multi_array($array): string
     {
-        return implode("&",array_map(function($a) {return implode("~",$a);},$array));
+        return implode("&", array_map(function ($a) {
+            return implode("~", $a);
+        }, $array));
     }
+
+    public function getViewForGuestCheckout()
+    {
+        return view('guestCheckout');
+    }
+
+
+    public function saveGuest(Request $request)
+    {
+        $validated = $request->validate([
+            'name' => 'required',
+            'email' => 'required',
+            'phone' => 'required',
+            'city' => 'required',
+            'zip' => 'required',
+            'address' => 'required'
+        ]);
+
+
+        if (session()->get('cart')) {
+
+
+
+
+            return redirect("/");
+        }
+        else {
+                return Redirect::back()->withErrors(['An error is with the cart, please check it']);
+            }
+
+
+        }
 
 }
