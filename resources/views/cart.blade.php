@@ -72,7 +72,7 @@
             <td><a href="{{ url('/') }}" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
             <td colspan="2" class="hidden-xs"></td>
             <td class="hidden-xs text-center"><strong>Total {{ $total }} Ft</strong></td>
-            <td><a href="#" class="btn btn-warning">Proceed to checkout <i class="fa fa-angle-right"></i></a></td>
+            <td><a href="/checkout" class="btn btn-warning">Proceed to checkout <i class="fa fa-angle-right"></i></a></td>
 
         </tr>
         </tfoot>

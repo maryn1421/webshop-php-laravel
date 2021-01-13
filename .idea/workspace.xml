@@ -19,10 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="edited column user_id from integer to biginteger">
-      <change afterPath="$PROJECT_DIR$/public/css/checkout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/checkout.blade.php" afterDir="false" />
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added checkout template">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/guestCheckout.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/registeredCheckout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3ca13f77-58e4-4efb-835d-169382618f96.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3ca13f77-58e4-4efb-835d-169382618f96.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/checkout.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/checkout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cart.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/checkout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/checkout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,14 +246,8 @@
       <workItem from="1610011212795" duration="14360000" />
       <workItem from="1610098838119" duration="2685000" />
       <workItem from="1610353872018" duration="4905000" />
-      <workItem from="1610440464533" duration="3702000" />
-    </task>
-    <task id="LOCAL-00006" summary="added database migrations for models">
-      <created>1607174758061</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1607174758061</updated>
+      <workItem from="1610440464533" duration="8818000" />
+      <workItem from="1610525981020" duration="3470000" />
     </task>
     <task id="LOCAL-00007" summary="added admin controller">
       <created>1607332792514</created>
@@ -585,7 +585,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610373986750</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="added checkout template">
+      <created>1610450451734</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1610450451740</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,7 +612,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added productsByCategory.blade.php and statistics.blade.php to views" />
     <MESSAGE value="addded viewcounter to database migration and added an ajax post method to js when to product loads in" />
     <MESSAGE value="the main page 5 items by category is now listed by popularity" />
     <MESSAGE value="items are now listed a on a new page by category id" />
@@ -630,6 +636,7 @@
     <MESSAGE value="added columns to the guest order table" />
     <MESSAGE value="added columns to the registered order table" />
     <MESSAGE value="edited column user_id from integer to biginteger" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited column user_id from integer to biginteger" />
+    <MESSAGE value="added checkout template" />
+    <option name="LAST_COMMIT_MESSAGE" value="added checkout template" />
   </component>
 </project>

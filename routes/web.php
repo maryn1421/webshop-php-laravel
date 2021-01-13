@@ -3,6 +3,7 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AuthenticationController;
 use App\Http\Controllers\CartController;
+use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\MainPageController;
 use App\Http\Controllers\ProductByCategoryController;
 use App\Http\Controllers\ProductController;
@@ -126,6 +127,18 @@ Route::delete('remove-from-cart',  [CartController::class, 'remove']);
 Route::get('/admin/statistics',  [StatisticsController::class, 'listItems'])->middleware('verify.admin');
 
 
+
+
+/*
+|--------------------------------------------------------------------------
+| Checkout Routes
+|--------------------------------------------------------------------------
+|
+*/
+
+
+Route::get('/checkout',  [CheckoutController::class, 'getViewForCheckOutPage']);
+Route::get('/registered-checkout',  [CheckoutController::class, 'getViewForRegisteredCheckout']);
 
 
 
