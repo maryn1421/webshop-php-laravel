@@ -20,7 +20,17 @@
 </head>
 <body>
 @include('components.header')
-
+@if ($errors->any())
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+        @if ($errors->has('email'))
+        @endif
+    </div>
+@endif
 
 
 <div class="registered__main">
@@ -43,7 +53,7 @@
             <p>address:</p>
             <input type="text" name="address" value="{{$user->address}}">
             <p>confirm</p>
-            <input type="checkbox" value="I agree">
+            <input required="required" type="checkbox" value="I agree">
             <br>
             <button type="submit"> confirm order</button>
         </form>

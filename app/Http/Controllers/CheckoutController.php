@@ -6,6 +6,7 @@ namespace App\Http\Controllers;
 
 
 use App\Models\User;
+use http\Env\Request;
 
 class CheckoutController extends Controller
 {
@@ -29,5 +30,24 @@ class CheckoutController extends Controller
 
 
  }
+
+    public function saveRegistered(Request $request) {
+        $validated = $request->validate([
+            'name' => 'required',
+            'email' => 'required',
+            'phone' => 'required',
+            'city' => 'required',
+            'zip' => 'required',
+            'address' => 'required'
+        ]);
+
+
+
+
+
+
+
+    }
+
 
 }

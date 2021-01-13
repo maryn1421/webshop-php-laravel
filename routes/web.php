@@ -140,7 +140,7 @@ Route::get('/admin/statistics',  [StatisticsController::class, 'listItems'])->mi
 Route::get('/checkout',  [CheckoutController::class, 'getViewForCheckOutPage']);
 Route::get('/registered-checkout',  [CheckoutController::class, 'getViewForRegisteredCheckout']);
 
-
+Route::post('/save-registered-order', [CheckoutController::class, 'saveRegistered']);
 
 
 /*
