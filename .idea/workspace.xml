@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="edited registered order template, adding new routes for ordering">
+    <list default="true" id="f9f0a92f-12e0-4001-8537-b7454d503c0b" name="Default Changelist" comment="added form validation for registeredCheckout">
+      <change afterPath="$PROJECT_DIR$/app/Models/RegisteredOrder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/registeredCheckout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/registeredCheckout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,14 +240,7 @@
       <workItem from="1610098838119" duration="2685000" />
       <workItem from="1610353872018" duration="4905000" />
       <workItem from="1610440464533" duration="8818000" />
-      <workItem from="1610525981020" duration="3941000" />
-    </task>
-    <task id="LOCAL-00008" summary="added resources for designing">
-      <created>1607339136280</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1607339136280</updated>
+      <workItem from="1610525981020" duration="4268000" />
     </task>
     <task id="LOCAL-00009" summary="added new pages: new category and new product!">
       <created>1607352979033</created>
@@ -586,7 +578,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610532303836</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="added form validation for registeredCheckout">
+      <created>1610532597214</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1610532597215</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,7 +605,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="the main page 5 items by category is now listed by popularity" />
     <MESSAGE value="items are now listed a on a new page by category id" />
     <MESSAGE value="fixed admin page" />
     <MESSAGE value="added dropdown to cart icon on the header, edited layout of the cart page" />
@@ -631,6 +629,7 @@
     <MESSAGE value="edited column user_id from integer to biginteger" />
     <MESSAGE value="added checkout template" />
     <MESSAGE value="edited registered order template, adding new routes for ordering" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited registered order template, adding new routes for ordering" />
+    <MESSAGE value="added form validation for registeredCheckout" />
+    <option name="LAST_COMMIT_MESSAGE" value="added form validation for registeredCheckout" />
   </component>
 </project>
