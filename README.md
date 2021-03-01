@@ -1,7 +1,9 @@
 #### About this project:
 
 Its is a laravel based webshop.`This project is not finished`.
-The webshop contains: 
+
+
+##### The webshop contains: 
     - main page : the products are listed out by their category 
     - single product page: the products own page
     - suggestions: On the single product page is a suggestion box, where the products from the same category are listed.
